@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import axios from 'axios';
+import axios, { REQUESTS } from "../../api/axios";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +14,7 @@ function Signup() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/api/user/signUp', { name, email, password })
+        axios.post(REQUESTS.SIGNUP, { name, email, password })
             .then(result => {
                 console.log(result)
                 navigate('/home')

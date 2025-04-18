@@ -7,7 +7,7 @@ async function sendEmail(userEmail, userPassword) {
             service: 'gmail', 
             auth: {
                 user:'neta303366@gmail.com',
-                pass: 'vyyr cgqq sgqz ilkd'
+                pass: 'Halfon212'
                 // user: 'amirneta.lerning@gmail.com',
                 // pass: 'AmirnetA05022009'
             }

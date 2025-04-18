@@ -13,10 +13,10 @@ app.use(cors());
 // routers
 app.use('/api', apiRouter);
 
-mongoose.connect(process.env.MONGO_CONNECTION_STRING ?? "mongodb://localhost:27017/amirneta")
+mongoose.connect(process.env.MONGO_CONNECTION_STRING)
 .then(() => {
     console.log('connected to mongoDB')
-    const port = process.env.PORT ?? 3001;
+    const port = process.env.PORT;
     app.listen(port, () => console.log(`server listen on port ${port}`));
 })
 .catch(err => console.log(err));

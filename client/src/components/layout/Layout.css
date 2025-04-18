@@ -1,0 +1,9 @@
+.top-bar {
+    background-color: hwb(217 5% 76%);
+    color: white;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+  }
