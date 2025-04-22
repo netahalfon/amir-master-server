@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const UserModel = require('../models/User');
+const {UserModel,ROLES} = require('../models/User');
 
 const authonticateToken = (req, res, next) => {
     const authHeader = req.headers['authorization'];
@@ -13,7 +13,7 @@ const authonticateToken = (req, res, next) => {
     });
 }
 const adminAccess = (req, res, next) => {
-    if(req.user && req.user.isAdmin) {
+    if(req.user && req.user.role == ROLES.Admin){
         next();
     }
     else {

@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const wordSchema = new mongoose.Schema({
+const wordBankSchema = new mongoose.Schema({
   hebrew: String,
   english: String,
   level: Number // 1-10
 });
 
-module.exports = mongoose.model('Word', wordSchema);
+module.exports = mongoose.model('wordBank', wordBankSchema);

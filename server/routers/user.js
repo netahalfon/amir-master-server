@@ -1,10 +1,11 @@
 const userRouter = require("express").Router();
 const { authonticateToken } = require("../middlewares/authonticateToken");
-const UserModel = require("../models/User");
+const {UserModel} = require("../models/User");
 const sendEmail = require("../utils/sendMail");
 require("dotenv").config();
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+
 
 const saltRounds = 10;
 

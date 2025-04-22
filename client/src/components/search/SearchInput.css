@@ -1,0 +1,66 @@
+.inputBase {
+    color: inherit;
+    width: 100%;
+}
+
+.inputBase input {
+    padding: 8px 8px 8px 0;
+    padding-left: calc(1em + 32px);
+    /* theme.spacing(4) ≈ 32px */
+    transition: width 200ms ease;
+    color: black;
+    /* similar to theme.transitions.create('width') */
+    width: 100%;
+}
+
+.searchWrapper {
+    position: relative;
+    border-radius: 4px; /* theme.shape.borderRadius ≈ 4px by default */
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .searchWrapper:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+ 
+  
+  .searchIconWrapper {
+    padding: 0 16px; /* theme.spacing(0, 2) = 0 top/bottom, 16px sides */
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputBase {
+    color: inherit;
+    width: 100%;
+  }
+  
+  .inputBase input {
+    padding: 8px 8px 8px 0;
+    padding-left: calc(1em + 32px);
+    transition: width 200ms ease;
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .inputBase input {
+      width: 12ch;
+    }
+  
+    .inputBase input:focus {
+      width: 20ch;
+    }
+  }
+  
+.searchToolbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
