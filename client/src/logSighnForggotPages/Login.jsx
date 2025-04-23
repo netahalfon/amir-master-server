@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios, { REQUESTS } from "../../api/axios";
+import axios, { REQUESTS } from "../api/axios";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
-import useAuth from "../../hooks/useAuth";
+import useAuth from "../hooks/useAuth";
 
 function Login() {
   const [email, setEmail] = useState();

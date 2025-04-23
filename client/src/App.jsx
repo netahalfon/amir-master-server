@@ -1,40 +1,39 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 
-import Signup from "./components/logSighnForggotPages/Signup";
-import Login from "./components/logSighnForggotPages/Login";
-import ForgotPassword from "./components/logSighnForggotPages/ForgotPassword";
 
-import {
-  WordNotebook,
-  WordPractice,
-  SentenceCompletion,
-  Rephrasing,
-  ReadingComprehension,
-  Simulations,
-} from "./components/userPages";
 
-import {
-  WordBankAdmin,
-  SentenceCompletionAdmin,
-  RephrasingAdmin,
-  ReadingComprehensionAdmin,
-  SimulationsAdmin,
-  UserManagementAdmin,
-} from "./components/adminPages";
+import Signup from "./logSighnForggotPages/Signup";
+import Login from "./logSighnForggotPages/Login";
+import ForgotPassword from "./logSighnForggotPages/ForgotPassword";
 
-import Home from "./components/home/Home";
+// user pages
+import WordNotebook from "./userPages/WordNotebook";
+import WordPractice from "./userPages/WordPractice";
+import SentenceCompletion from "./userPages/SentenceCompletion";
+import Rephrasing from "./userPages/Rephrasing";
+import ReadingComprehension from "./userPages/ReadingComprehension";
+import Simulations from "./userPages/Simulations";
+
+// admin pages
+import WordBankAdmin from "./adminPages/WordBankAdmin/WordBankAdmin";
+import SentenceCompletionAdmin from "./adminPages/SentenceCompletionAdmin";
+import RephrasingAdmin from "./adminPages/RephrasingAdmin";
+import ReadingComprehensionAdmin from "./adminPages/ReadingComprehensionAdmin";
+import SimulationsAdmin from "./adminPages/SimulationsAdmin";
+import UserManagementAdmin from "./adminPages/UserManagementAdmin";
+import Home from "./adminPages/home/Home";
+
+// common
 import Setting from "./components/Settings";
 import Layout from "./components/layout/Layout";
 import Unauthorized from "./components/Unauthorized";
 import RequireAuth from "./components/RequireAuth";
 import Missing from "./components/Missing";
 import { ROLES } from "./hooks/useAuth";
-
-import { useEffect } from "react";
 import useAuth from "./hooks/useAuth";
-import  axios  from "./api/axios";
+import axios from "./api/axios";
 import { jwtDecode } from "jwt-decode";
+import { useEffect } from "react";
 
 function App() {
   const { auth, setAuth } = useAuth();
