@@ -37,19 +37,21 @@ import { useEffect } from "react";
 
 function App() {
   const { auth, setAuth } = useAuth();
-
+  
+  // store
   useEffect(() => {
-    axios
-      .get("/refresh")
-      .then((res) => {
-        const { accessToken } = res.data;
-        const user = jwtDecode(accessToken); // נדרש דיבוג
-        setAuth({ accessToken, user });
-      })
-      .catch(() => {
-        console.log("Refresh failed:", err);
-      });
-  }, []);
+    if(auth != null){
+      localStorage.setItem('auth',JSON.stringify(auth));
+    }
+  },[auth]);
+
+  // retrieve
+  useEffect(() => {
+    const storedAuth = localStorage.getItem('auth');
+    if (storedAuth) {
+      setAuth(JSON.parse(storedAuth));
+    };
+  },[]);
 
   return (
     <Routes>

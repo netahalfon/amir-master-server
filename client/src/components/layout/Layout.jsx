@@ -6,7 +6,6 @@ import { useColorMode } from "../../context/ColorModeProvider";
 const Layout = () => {
   const navigate = useNavigate();
   const { theme } = useColorMode(); // קבלת הצבעים
-
   return (
     <main
       className="App"

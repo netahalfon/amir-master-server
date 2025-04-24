@@ -7,6 +7,7 @@ function Settings() {
 
     const handleLogout = () => {
         setAuth(undefined)
+        localStorage.removeItem("auth");
         navigate("/login")
     }
 
