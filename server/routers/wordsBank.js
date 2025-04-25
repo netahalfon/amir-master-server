@@ -5,6 +5,16 @@ const Word = require('../models/Word');
 const { authonticateToken, adminAccess} = require('../middlewares/authonticateToken');
 
 
+wordBankRouter.get('/', authonticateToken, async (req, res) => {
+  try {
+    const words = await Word.find({}).select('-__v');
+    res.json(words);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
 wordBankRouter.put('/upsert-words',authonticateToken,adminAccess, async (req, res) => {
   try {
     const { words } = req.body;
@@ -25,7 +35,8 @@ wordBankRouter.put('/upsert-words',authonticateToken,adminAccess, async (req, re
     res.status(500).json({ error: err.message });
   }
 });
-  
+
+
   
 exports.wordBankRouter = wordBankRouter;
 

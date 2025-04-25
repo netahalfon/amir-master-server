@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Table, DropdownButton, Dropdown, Container } from "react-bootstrap";
 import SearchInput from "../components/search/SearchInput";
 import LevelBadge from "../components/LevelBadge";
 import MultipleSelect from "../components/MultipleSelect";
 import { useColorMode } from "../context/ColorModeProvider";
+import useApi from "../hooks/useApi"; // או לפי הנתיב הנכון אצלך
 
 const initialWords = [
   { id: 1, english: "Abandon", hebrew: "לנטוש", level: 2, mastery: "None" },
@@ -34,17 +35,41 @@ const initialWords = [
     level: 7,
     mastery: "Partially Know",
   },
-  { id: 17, english: "Anticipate", hebrew: "לצפות ל-", level: 3, mastery: "None" },
+  {
+    id: 17,
+    english: "Anticipate",
+    hebrew: "לצפות ל-",
+    level: 3,
+    mastery: "None",
+  },
   { id: 18, english: "Appraise", hebrew: "להעריך", level: 6, mastery: "None" },
-  { id: 19, english: "Arbitrary", hebrew: "שרירותי", level: 8, mastery: "None" },
+  {
+    id: 19,
+    english: "Arbitrary",
+    hebrew: "שרירותי",
+    level: 8,
+    mastery: "None",
+  },
   { id: 20, english: "Aspire", hebrew: "לשאוף", level: 2, mastery: "None" },
   { id: 21, english: "Augment", hebrew: "להגדיל", level: 4, mastery: "None" },
   { id: 22, english: "Avid", hebrew: "נלהב", level: 3, mastery: "None" },
-  { id: 23, english: "Belligerent", hebrew: "לוחמני", level: 9, mastery: "None" },
+  {
+    id: 23,
+    english: "Belligerent",
+    hebrew: "לוחמני",
+    level: 9,
+    mastery: "None",
+  },
   { id: 24, english: "Benevolent", hebrew: "נדיב", level: 4, mastery: "None" },
   { id: 25, english: "Bolster", hebrew: "לתמוך", level: 6, mastery: "None" },
   { id: 26, english: "Cajole", hebrew: "לפתות", level: 7, mastery: "None" },
-  { id: 27, english: "Capricious", hebrew: "בלתי צפוי", level: 9, mastery: "None" },
+  {
+    id: 27,
+    english: "Capricious",
+    hebrew: "בלתי צפוי",
+    level: 9,
+    mastery: "None",
+  },
   { id: 28, english: "Coerce", hebrew: "לאלץ", level: 5, mastery: "None" },
   { id: 29, english: "Complacent", hebrew: "שאנן", level: 8, mastery: "None" },
   {
@@ -63,7 +88,37 @@ export default function WordNoteBook() {
   const { theme } = useColorMode();
   const [selectedLevels, setSelectedLevels] = useState([]);
   const [selectedMastery, setSelectedMastery] = useState([]);
-  const [words, setWords] = useState(initialWords);
+  const [words, setWords] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  const { getWordBank } = useApi();
+
+  useEffect(() => {
+    const fetchWords = async () => {
+      try {
+        const wordsFromServer = await getWordBank();
+        setWords(
+          wordsFromServer.map((word) => ({
+            ...word,
+            mastery: word.mastery || "None",
+          }))
+        );
+      } catch (err) {
+        console.error("Failed to fetch words:", err);
+        setError("Failed to load words.");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchWords();
+  }, []);
+
+  useEffect(() => {
+    console.log("words התעדכן ל:", words);
+    console.log("initialWords:", initialWords);
+  }, [words]);
 
   const filteredWords = words.filter((word) => {
     const matchesSearch =
@@ -81,10 +136,10 @@ export default function WordNoteBook() {
     return matchesSearch && matchesLevel && matchesMastery;
   });
 
-  const updateMastery = (id, newMastery) => {
+  const updateMastery = (_id, newMastery) => {
     setWords((prev) =>
       prev.map((word) =>
-        word.id === id ? { ...word, mastery: newMastery } : word
+        word._id === _id ? { ...word, mastery: newMastery } : word
       )
     );
   };
@@ -131,7 +186,7 @@ export default function WordNoteBook() {
         </thead>
         <tbody>
           {filteredWords.map((word) => (
-            <tr key={word.id}>
+            <tr key={word._id}>
               <td>{word.english}</td>
               <td>{word.hebrew}</td>
               <td>
@@ -144,7 +199,7 @@ export default function WordNoteBook() {
                   onSelect={(val) =>
                     setWords((prev) =>
                       prev.map((w) =>
-                        w.id === word.id ? { ...w, mastery: val } : w
+                        w._id === word._id ? { ...w, mastery: val } : w
                       )
                     )
                   }

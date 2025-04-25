@@ -14,7 +14,6 @@ import { ColorModeProvider } from './context/ColorModeProvider.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <React.StrictMode>
     <BrowserRouter>
       <AuthProvider>
       <ColorModeProvider>
@@ -24,5 +23,4 @@ root.render(
         </ColorModeProvider>
       </AuthProvider>
     </BrowserRouter>
-  </React.StrictMode>
 );

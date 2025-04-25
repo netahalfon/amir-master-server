@@ -41,6 +41,9 @@ function WordBankAdmin() {
   const [editWord, setEditWord] = useState(null);
   const [words, setWords] = useState(initialWords);
 
+
+  
+
   const handleAddWords = (wordsToAdd) => {
     console.log("Adding words:", wordsToAdd);
 

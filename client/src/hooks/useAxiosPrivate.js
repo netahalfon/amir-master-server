@@ -4,7 +4,7 @@ import useRefreshToken from "./useRefreshToken";
 import { useLocation, useNavigate } from "react-router-dom";
 import useAuth from "./useAuth";
 
-export default useAxiosPrivate = () => {
+const useAxiosPrivate = () => {
   const refresh = useRefreshToken();
   const { auth } = useAuth();
   const navigate = useNavigate();
@@ -44,3 +44,5 @@ export default useAxiosPrivate = () => {
 
   return axiosPrivate;
 };
+
+export default useAxiosPrivate;
