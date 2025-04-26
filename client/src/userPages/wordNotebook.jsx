@@ -6,80 +6,6 @@ import MultipleSelect from "../components/MultipleSelect";
 import { useColorMode } from "../context/ColorModeProvider";
 import useApi from "../hooks/useApi"; // או לפי הנתיב הנכון אצלך
 
-const initialWords = [
-  { id: 1, english: "Abandon", hebrew: "לנטוש", level: 2, mastery: "None" },
-  { id: 2, english: "Abate", hebrew: "להפחית", level: 3, mastery: "None" },
-  { id: 3, english: "Abbreviate", hebrew: "לקצר", level: 2, mastery: "None" },
-  { id: 4, english: "Abduct", hebrew: "לחטוף", level: 2, mastery: "None" },
-  { id: 5, english: "Aberrant", hebrew: "חריג", level: 3, mastery: "None" },
-  { id: 6, english: "Abhor", hebrew: "לתעב", level: 3, mastery: "None" },
-  { id: 7, english: "Accumulate", hebrew: "לצבור", level: 1, mastery: "None" },
-  { id: 8, english: "Acquiesce", hebrew: "להיכנע", level: 7, mastery: "None" },
-  { id: 9, english: "Adhere", hebrew: "לדבוק", level: 4, mastery: "None" },
-  { id: 10, english: "Admonish", hebrew: "להזהיר", level: 5, mastery: "None" },
-  { id: 11, english: "Advocate", hebrew: "לסנגר", level: 4, mastery: "None" },
-  { id: 12, english: "Aesthetic", hebrew: "אסתטי", level: 2, mastery: "None" },
-  { id: 13, english: "Alleviate", hebrew: "להקל", level: 6, mastery: "None" },
-  {
-    id: 14,
-    english: "Ambiguous",
-    hebrew: "עמום / דו-משמעי",
-    level: 5,
-    mastery: "None",
-  },
-  { id: 15, english: "Amend", hebrew: "לתקן", level: 2, mastery: "Don't Know" },
-  {
-    id: 16,
-    english: "Annihilate",
-    hebrew: "להשמיד",
-    level: 7,
-    mastery: "Partially Know",
-  },
-  {
-    id: 17,
-    english: "Anticipate",
-    hebrew: "לצפות ל-",
-    level: 3,
-    mastery: "None",
-  },
-  { id: 18, english: "Appraise", hebrew: "להעריך", level: 6, mastery: "None" },
-  {
-    id: 19,
-    english: "Arbitrary",
-    hebrew: "שרירותי",
-    level: 8,
-    mastery: "None",
-  },
-  { id: 20, english: "Aspire", hebrew: "לשאוף", level: 2, mastery: "None" },
-  { id: 21, english: "Augment", hebrew: "להגדיל", level: 4, mastery: "None" },
-  { id: 22, english: "Avid", hebrew: "נלהב", level: 3, mastery: "None" },
-  {
-    id: 23,
-    english: "Belligerent",
-    hebrew: "לוחמני",
-    level: 9,
-    mastery: "None",
-  },
-  { id: 24, english: "Benevolent", hebrew: "נדיב", level: 4, mastery: "None" },
-  { id: 25, english: "Bolster", hebrew: "לתמוך", level: 6, mastery: "None" },
-  { id: 26, english: "Cajole", hebrew: "לפתות", level: 7, mastery: "None" },
-  {
-    id: 27,
-    english: "Capricious",
-    hebrew: "בלתי צפוי",
-    level: 9,
-    mastery: "None",
-  },
-  { id: 28, english: "Coerce", hebrew: "לאלץ", level: 5, mastery: "None" },
-  { id: 29, english: "Complacent", hebrew: "שאנן", level: 8, mastery: "None" },
-  {
-    id: 30,
-    english: "Convoluted",
-    hebrew: "מסובך",
-    level: 10,
-    mastery: "Know Well",
-  },
-];
 
 const masteryOptions = ["None", "Don't Know", "Partially Know", "Know Well"];
 
@@ -117,7 +43,6 @@ export default function WordNoteBook() {
 
   useEffect(() => {
     console.log("words התעדכן ל:", words);
-    console.log("initialWords:", initialWords);
   }, [words]);
 
   const filteredWords = words.filter((word) => {
