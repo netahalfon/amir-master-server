@@ -1,5 +1,6 @@
 import useAxiosPrivate from './useAxiosPrivate';
 import axios,{REQUESTS} from '../api/axios';
+
 const useApi = () => {
     const axiosPrivate = useAxiosPrivate();
 
@@ -23,8 +24,32 @@ const useApi = () => {
         }
     }
 
+    const getWordMasteries = async () => {
+        try {
+            const response = await axiosPrivate.get(REQUESTS.GET_USER_MASTERIES);
+            return response.data;
+        } catch (error) {
+            console.error('Error fetching user masteries:', error);
+            throw error;
+        }
+    };
 
-    return { getWordBank };
+    const upsertMastery = async (wordId, mastery) => {
+        try {
+          const response = await axiosPrivate.post(REQUESTS.UPSERT_MASTERY, {
+            wordId,
+            mastery,
+          });
+          return response.data;
+        } catch (error) {
+          console.error('Error updating mastery:', error);
+          throw error;
+        }
+      };
+      
+
+
+    return { getWordBank, getWordMasteries, upsertMastery };
 };
 
 export default useApi;

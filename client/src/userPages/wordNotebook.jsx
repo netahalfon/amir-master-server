@@ -4,7 +4,7 @@ import SearchInput from "../components/search/SearchInput";
 import LevelBadge from "../components/LevelBadge";
 import MultipleSelect from "../components/MultipleSelect";
 import { useColorMode } from "../context/ColorModeProvider";
-import useApi from "../hooks/useApi"; // או לפי הנתיב הנכון אצלך
+import useApi from "../hooks/useApi"; 
 
 
 const masteryOptions = ["None", "Don't Know", "Partially Know", "Know Well"];
@@ -19,28 +19,42 @@ export default function WordNoteBook() {
   const [error, setError] = useState(null);
 
   const { getWordBank } = useApi();
+  const { getWordMasteries } = useApi();
+  const { upsertMastery } = useApi();
+
 
   useEffect(() => {
-    const fetchWords = async () => {
+    const fetchWordsAndMasteries = async () => {
       try {
-        const wordsFromServer = await getWordBank();
+        const [wordsFromServer, masteryData] = await Promise.all([
+          getWordBank(),
+          getWordMasteries(),
+        ]);
+  
+        const masteries = masteryData.masteries || [];
+  
+        const masteryMap = {};
+        masteries.forEach((m) => {
+          masteryMap[m.wordId] = m.mastery;
+        });
+  
         setWords(
           wordsFromServer.map((word) => ({
             ...word,
-            mastery: word.mastery || "None",
+            mastery: masteryMap[word._id] || "None",
           }))
         );
       } catch (err) {
-        console.error("Failed to fetch words:", err);
+        console.error("Failed to fetch words or masteries:", err);
         setError("Failed to load words.");
       } finally {
         setIsLoading(false);
       }
     };
-
-    fetchWords();
+  
+    fetchWordsAndMasteries();
   }, []);
-
+  
   useEffect(() => {
     console.log("words התעדכן ל:", words);
   }, [words]);
@@ -61,13 +75,22 @@ export default function WordNoteBook() {
     return matchesSearch && matchesLevel && matchesMastery;
   });
 
-  const updateMastery = (_id, newMastery) => {
+  const handleMasterySelect = async (wordId, val) => {
+    try {
+await upsertMastery(wordId, val);
+  
     setWords((prev) =>
-      prev.map((word) =>
-        word._id === _id ? { ...word, mastery: newMastery } : word
+      prev.map((w) =>
+        w._id === wordId ? { ...w, mastery: val } : w
       )
-    );
+    );}
+    catch (error) {
+      console.error("Error updating mastery:", error);
+    }
   };
+  
+
+
 
   return (
     <Container
@@ -122,11 +145,7 @@ export default function WordNoteBook() {
                   variant="outline-secondary"
                   title={word.mastery || "Select"}
                   onSelect={(val) =>
-                    setWords((prev) =>
-                      prev.map((w) =>
-                        w._id === word._id ? { ...w, mastery: val } : w
-                      )
-                    )
+                    handleMasterySelect(word._id, val)
                   }
                 >
                   {masteryOptions.map((option, idx) => (
