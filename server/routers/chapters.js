@@ -20,4 +20,9 @@ chaptersRouter.post(
   chaptersController.createChapter
 );
 
+chaptersRouter.post("/import",
+  authonticateToken,
+  adminAccess,
+  chaptersController.importChaptersFromFile);
+
 module.exports = { chaptersRouter };
