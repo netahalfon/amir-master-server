@@ -1,0 +1,438 @@
+{
+  "order": 3,
+  "name": "Fall 2024",
+  "type": "Psychometrics",
+  "chaptersSection1": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "_____ evidence to the contrary, many people believe that men are better drivers than women.",
+          "incorrectOptions": ["Unless", "Following", "Perhaps"],
+          "correctOption": "Despite"
+        },
+        {
+          "order": 2,
+          "question": "Anthony Blunt was stripped of his knighthood by Queen Elizabeth when _____ he had spied for the Soviet Union.",
+          "incorrectOptions": ["he was convicted of", "he confessed to", "that was discovered"],
+          "correctOption": "it became known that"
+        },
+        {
+          "order": 3,
+          "question": "Huge profits from the sale of avocados in New Zealand have _____ a wave of thefts from avocado orchards.",
+          "incorrectOptions": ["caught up with", "looked forward to", "kept away from"],
+          "correctOption": "given rise to"
+        },
+        {
+          "order": 4,
+          "question": "Crows are known to hold a _____, remembering and showing aggression toward crows that have hurt them in the past.",
+          "incorrectOptions": ["blunder", "detour", "hurdle"],
+          "correctOption": "grudge"
+        },
+        {
+          "order": 5,
+          "question": "In 2000, the 170-meter tall Washington Monument underwent extensive _____ to repair broken marble blocks, remove stains, and replace windows.",
+          "incorrectOptions": ["revelations", "resolutions", "recollections"],
+          "correctOption": "renovations"
+        },
+        {
+          "order": 6,
+          "question": "Martin Luther King Jr.'s \"I Have a Dream\" speech is considered one of the most important _____ in U.S. history.",
+          "incorrectOptions": ["objections", "evictions", "escalations"],
+          "correctOption": "orations"
+        },
+        {
+          "order": 7,
+          "question": "_____ regulations prohibit the construction of office buildings in residential neighborhoods.",
+          "incorrectOptions": ["Tracing", "Granting", "Hiring"],
+          "correctOption": "Zoning"
+        },
+        {
+          "order": 8,
+          "question": "As a result of drought, land clearing, and wildfires, Australia's koala population has _____ by 30 percent since 2018.",
+          "incorrectOptions": ["invoked", "embellished", "conceded"],
+          "correctOption": "plunged"
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "order": 9,
+          "question": "The story of Don Quixote implies that fiction and historical truth are frequently indistinguishable.",
+          "incorrectOptions": [
+            "Like many great works of fiction, Don Quixote is based primarily on actual historical events.",
+            "Some parts of Don Quixote are totally fictional, while others are rooted in historical fact.",
+            "There is more fiction than fact in Don Quixote."
+          ],
+          "correctOption": "Don Quixote suggests that it is often impossible to tell the difference between fact and fiction."
+        },
+        {
+          "order": 10,
+          "question": "The permanent shutdown of Greyhound bus service in Canada has exacerbated the accessibility problem faced by the country's rural communities.",
+          "incorrectOptions": [
+            "Rural communities in Canada are protesting the closure of the Greyhound bus company.",
+            "Greyhound buses no longer service some of Canada's most remote locations due to poor infrastructure.",
+            "Due to reduced demand among rural customers, the Greyhound bus company has cancelled many of its Canadian routes."
+          ],
+          "correctOption": "Travel has become even more difficult for people living in the Canadian countryside since Greyhound bus service was discontinued there."
+        },
+        {
+          "order": 11,
+          "question": "Throughout his career, astrophysicist Charles Greeley Abbot sought to demonstrate that fluctuations in the Sun's energy emissions have a quantifiable effect on Earth's weather.",
+          "incorrectOptions": [
+            "Abbot never managed to conclusively determine how energy released by the Sun influences Earth's weather.",
+            "Abbot spent his career arguing that the Sun's energy emissions have a negligible effect on the weather on Earth.",
+            "After many years of research, Abbot concluded that the forces that cause variations in the Sun's energy levels are also responsible for changes in the weather on Earth."
+          ],
+          "correctOption": "Abbot never stopped trying to prove that Earth's weather is measurably affected by changes in the Sun's energy output."
+        },
+        {
+          "order": 12,
+          "question": "The works showcased at the International Exhibition of Modern Decorative and Industrial Arts, held in Paris in 1925, epitomized the Art Deco movement.",
+          "incorrectOptions": [
+            "The 1925 International Exhibition of Modern Decorative and Industrial Arts in Paris was organized in order to promote Art Deco artists.",
+            "The International Exhibition of Modern Decorative and Industrial Arts, held in Paris in 1925, featured exceptional Art Deco works.",
+            "The pieces which attracted the most attention at the International Exhibition of Modern Decorative and Industrial Arts, held in Paris in 1925, were those created in the Art Deco style."
+          ],
+          "correctOption": "The exhibits at the 1925 International Exhibition of Modern Decorative and Industrial Arts in Paris captured the essence of the Art Deco style."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "Queen Anne's lace is a wildflower found in many parts of the world. It grows in fields, empty lots, and by the roadside. It is often called wild carrot because it is related to the vegetable that we eat. In fact, if you rub and then sniff the plant's leaves, you will find that they smell like carrots.\n\nQueen Anne's lace has a circle of small, white flowers at the top of its long stem. Because of the way these tiny, delicate flowers are grouped together, they look like lace. There is a purple flower at the center of the cluster, making it seem as if a beetle is sitting there.\n\nNo one is sure which Queen Anne the wildflower is named for. According to one story, it was named after the wife of King James I of England, who was originally from Denmark. When she came to England to marry the king, Anne saw wild carrot for the first time. She thought it so pretty that she decided to make lace that looked like the flower and sew it onto her dresses. Eventually, people began calling the plant by her name.",
+      "questions": [
+        {
+          "order": 13,
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": [
+            "The Prettiest Lace Ever Made",
+            "Making Lace: A Short History",
+            "The Life of Queen Anne"
+          ],
+          "correctOption": "Queen Anne's Lace: A Wildflower"
+        },
+        {
+          "order": 14,
+          "question": "According to the first paragraph Queen Anne's lace -",
+          "incorrectOptions": [
+            "has a very unpleasant smell",
+            "cannot be eaten",
+            "is found in very few places"
+          ],
+          "correctOption": "is from the same family as the carrot"
+        },
+        {
+          "order": 15,
+          "question": "The second paragraph is mainly about -",
+          "incorrectOptions": [
+            "how to make Queen Anne's lace",
+            "flowers and beetles",
+            "different wild plants"
+          ],
+          "correctOption": "what Queen Anne's lace looks like"
+        },
+        {
+          "order": 16,
+          "question": "In line 12, 'it' refers to -",
+          "incorrectOptions": [
+            "England",
+            "lace",
+            "one story"
+          ],
+          "correctOption": "wild carrot"
+        },
+        {
+          "order": 17,
+          "question": "It can be inferred from the text that Queen Anne's lace is -",
+          "incorrectOptions": [
+            "different from wild carrot",
+            "difficult to make",
+            "usually purple"
+          ],
+          "correctOption": "not really lace"
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "Human history is replete with figures who foretell future events, from the soothsayers and oracles of the ancient world to present-day clairvoyants and fortune-tellers. One of the most riveting of these is Nostradamus, a sixteenth-century physician who has been hailed as a veritable prophet and condemned as a fraud.\n\nIn 1547, Nostradamus began making predictions about the future, which he collected in a book called The Prophecies (often referred to as The Centuries). Rarely out of print since its publication in 1555, the book consists of rhymed four-line verses called quatrains, each purporting to foretell some world event far in the future. The predictions themselves are vague, even cryptic. They include few dates or names and are not arranged in chronological order. Nostradamus claimed they were based on divine inspiration, meditation, and the movements of the stars and planets, and that their meaning would become clear in time.\n\nRetrospective interpretation of the prophecies has led enthusiasts to credit Nostradamus with foretelling such momentous events as the French Revolution, both world wars, and the September 11, 2001 attack on the World Trade Center. Most academic sources, however, claim that Nostradamus deliberately wrote his quatrains in imprecise language so that they could be given a number of meanings in years to come. They also point out that predictions of death, war, and natural disasters – all of which inevitably occur over the course of history – are hardly a testimony to Nostradamus's prophetic powers.",
+      "questions": [
+        {
+          "order": 18,
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": [
+            "The Fascinating Phenomenon of Prophecy",
+            "The Prophecies: A Window into the Future",
+            "The Life and Works of Nostradamus"
+          ],
+          "correctOption": "Cryptic Quatrains: The Nostradamus Debate"
+        },
+        {
+          "order": 19,
+          "question": "In line 4, 'veritable' is closest in meaning to -",
+          "incorrectOptions": [
+            "experienced",
+            "strict",
+            "imprecise"
+          ],
+          "correctOption": "genuine"
+        },
+        {
+          "order": 20,
+          "question": "Which of the following is not mentioned in the second paragraph as a characteristic of Nostradamus's quatrains?",
+          "incorrectOptions": [
+            "Their meaning is unclear.",
+            "They consist of four lines.",
+            "They are not arranged in chronological order."
+          ],
+          "correctOption": "They contain detailed predictions."
+        },
+        {
+          "order": 21,
+          "question": "According to the last paragraph, Nostradamus -",
+          "incorrectOptions": [
+            "made predictions that were incorrect",
+            "has more supporters than critics",
+            "was not a particularly good writer"
+          ],
+          "correctOption": "predicted things that were sure to occur"
+        },
+        {
+          "order": 22,
+          "question": "It can be inferred that the sources mentioned in line 16 -",
+          "incorrectOptions": [
+            "have devoted themselves to interpreting Nostradamus's work",
+            "cannot explain why Nostradamus was able to predict certain events",
+            "do not think Nostradamus wrote The Prophecies"
+          ],
+          "correctOption": "believe Nostradamus was a fraud"
+        }
+      ]
+    }
+  ],
+  "chaptersSection2": [
+  {
+    "type": "completion",
+    "order": 1,
+    "questions": [
+      {
+        "order": 1,
+        "question": "Because dogs have upturned tails and wolves do not, biologist Carl Linnaeus _____ as different species in 1758.",
+        "incorrectOptions": ["classifies both", "gave each classification", "had classified"],
+        "correctOption": "decided to classify them"
+      },
+      {
+        "order": 2,
+        "question": "The _____ surrounding the death of Che Guevara, the Cuban revolutionary leader, are unknown.",
+        "incorrectOptions": ["opportunities", "restrictions", "principles"],
+        "correctOption": "circumstances"
+      },
+      {
+        "order": 3,
+        "question": "Egyptian pharaoh Tutankhamun is often referred to as the Boy King because his _____ began when he was only nine years old.",
+        "incorrectOptions": ["heir", "strand", "arch"],
+        "correctOption": "reign"
+      },
+      {
+        "order": 4,
+        "question": "There is a wide range of _____ for which a hockey player may be sent off the ice.",
+        "incorrectOptions": ["proposals", "shelters", "privileges"],
+        "correctOption": "offenses"
+      },
+      {
+        "order": 5,
+        "question": "In the summer of 2003, Europe suffered a severe heat wave, with temperatures in southern Portugal reaching a _____ 48 degrees Celsius.",
+        "incorrectOptions": ["sprawling", "nocturnal", "negligent"],
+        "correctOption": "scorching"
+      },
+      {
+        "order": 6,
+        "question": "Tensions in Central Asia are _____ as several countries compete for access to a dwindling supply of fresh water.",
+        "incorrectOptions": ["rehearsing", "nourishing", "discounting"],
+        "correctOption": "mounting"
+      },
+      {
+        "order": 7,
+        "question": "In northeastern India, fires ignited in a coal mine almost a century ago are still _____ deep below the earth's surface.",
+        "incorrectOptions": ["grimacing", "protruding", "reclining"],
+        "correctOption": "smoldering"
+      },
+      {
+        "order": 8,
+        "question": "Evergreens are _____ trees, able to thrive in the most inhospitable conditions.",
+        "incorrectOptions": ["frivolous", "devious", "hilarious"],
+        "correctOption": "tenacious"
+      }
+    ]
+  },
+  {
+    "type": "rephrasing",
+    "order": 2,
+    "questions": [
+      {
+        "order": 9,
+        "question": "A man cannot be comfortable without his own approval. (Mark Twain)",
+        "incorrectOptions": [
+          "Self-respect comes from having respect for others.",
+          "It is difficult to respect people who do not respect themselves.",
+          "Knowing oneself is the first step towards liking oneself."
+        ],
+        "correctOption": "Well-being is possible only for those who accept themselves."
+      },
+      {
+        "order": 10,
+        "question": "Physicist Murray Gell-Mann conducted groundbreaking research in the 1960s on a class of elementary particles that came to be known as quarks.",
+        "incorrectOptions": [
+          "In 1960, Murray Gell-Mann named the elementary particles he discovered quarks.",
+          "Murray Gell-Mann began his innovative study on quarks and other elementary particles in the 1960s.",
+          "A noteworthy study by Murray Gell-Mann on elementary particles known as quarks established him as the leading physicist of his day."
+        ],
+        "correctOption": "A group of elementary particles, later called quarks, was the subject of pioneering work done by Murray Gell-Mann."
+      },
+      {
+        "order": 11,
+        "question": "Livy was unique among Roman historians in that he played no part in politics.",
+        "incorrectOptions": [
+          "Livy's political views were not reflected in his historical writings.",
+          "Livy was one of the few Roman historians with no political background.",
+          "Livy's historical writings do not relate to Roman politics."
+        ],
+        "correctOption": "Livy was the only Roman historian who was not involved in politics."
+      },
+      {
+        "order": 12,
+        "question": "In June 1977, the Royal Geographical Society embarked on a 15-month inventory of the flora and fauna in Borneo's Gunung Mulu National Park.",
+        "incorrectOptions": [
+          "In June 1977, the Royal Geographical Society recommended that the flora and fauna found in Gunung Mulu National Park be given protected status for 15 months.",
+          "The Royal Geographical Society's study of the flora and fauna in Borneo's Gunung Mulu National Park took 15 months longer than expected.",
+          "Borneo's Gunung Mulu National Park was reopened in June 1977 after the Royal Geographical Society spent 15 months restoring the park's flora and fauna."
+        ],
+        "correctOption": "A list of the flora and fauna in Gunung Mulu National Park was prepared by the Royal Geographical Society over a period of 15 months, beginning in June 1977."
+      }
+    ]
+  },
+  {
+    "type": "reading",
+    "order": 3,
+    "passage": "One of the best ways to help the environment is also one of the simplest. Each year, the average family produces more than 350 kilograms of biodegradable waste – waste which can be broken down naturally into nutrients and used by other organisms. Usually, this 'green' waste is hauled away along with other household garbage and buried in huge dumps and landfills. At best, these sites occupy valuable land and generate unpleasant odors; at worst, they create serious environmental hazards. Because buried biodegradable waste is not exposed to air, it rots, producing methane gas and acids which pollute the air, soil, and underground water sources. There is, however, a better way to deal with green waste. With very little effort, our eggshells, coffee grounds, and wilted lettuce leaves can be turned into wonderful fertilizer for our gardens and houseplants.\n\nComposting, turning green waste into fertilizer, dates back to ancient times. It requires no agronomic skill: anyone can learn how to compost in a matter of minutes. Biodegradable waste is placed in an open container, where it is kept damp and mixed regularly. The waste decomposes with the help of bacteria, earthworms, insects, and fungi. And because it is exposed to air – unlike waste buried in landfills – it does not rot.\n\nComposting has grown in popularity as people have become more environmentally aware. It not only creates a useful product, but also decreases the need for landfills, lessens reliance on chemical fertilizers, and reduces the number of garbage trucks polluting the air. Moreover, composting entails very little expense and can be done by individuals or groups of concerned citizens.",
+    "questions": [
+      {
+        "order": 13,
+        "question": "An appropriate title for this text would be -",
+        "incorrectOptions": [
+          "The Advantages and Disadvantages of Composting",
+          "A Short History of Composting",
+          "Buried Waste: The Dangers of Landfills"
+        ],
+        "correctOption": "Composting: An Easy Way to Help the Environment"
+      },
+      {
+        "order": 14,
+        "question": "Which of the following is not mentioned in the first paragraph as a problem related to dumps and landfills?",
+        "incorrectOptions": [
+          "They pollute the air, water, and soil.",
+          "They smell bad.",
+          "They take up valuable space."
+        ],
+        "correctOption": "They are expensive to maintain."
+      },
+      {
+        "order": 15,
+        "question": "According to the second paragraph, which of the following is not needed to make compost?",
+        "incorrectOptions": [
+          "air",
+          "bacteria",
+          "biodegradable waste"
+        ],
+        "correctOption": "fertilizer"
+      },
+      {
+        "order": 16,
+        "question": "The main purpose of the last paragraph is to discuss _____ of composting.",
+        "incorrectOptions": [
+          "the increasing popularity",
+          "alternative methods",
+          "the cost"
+        ],
+        "correctOption": "additional benefits"
+      },
+      {
+        "order": 17,
+        "question": "According to the text, what is the difference between decomposing and rotting?",
+        "incorrectOptions": [
+          "Only biodegradable waste decomposes, but any type of household garbage will rot.",
+          "Waste decomposes when it is buried but rots when exposed to air.",
+          "Decomposing is a much longer process than rotting."
+        ],
+        "correctOption": "Decomposing breaks waste down into nutrients, while rotting produces dangerous pollutants."
+      }
+    ]
+  },
+  {
+    "type": "reading",
+    "order": 4,
+    "passage": "The Latin phrase solvitur ambulando ('it is solved by walking') is often used when discussing the centuries-old belief that walking has a myriad of benefits. Aristotle, the ancient Greek philosopher, was well known for his practice of thinking while strolling and would often teach while walking the grounds of his academy in Athens. Aristotle was aware of walking's contribution to health and importance for cognitive function. He was not the only prominent historical figure to adhere to the ethos of walking.\n\nMany writers and artists have been avid walkers, insisting that their walking routine was part of their creative process. The long nature walks favored by German composer Ludwig van Beethoven inspired many of his works, most notably his Pastoral Symphony. For English poet William Wordsworth, the act of walking was inseparable from the act of writing. He both wrote and revised lines of poetry while hiking, the rhythm of his steps influencing the rhythm of his works. And the American philosopher Henry David Thoreau was convinced that walking was indispensable for the well-being of both body and mind. He declared, 'I cannot preserve my health and spirits unless I spend four hours a day at least … sauntering through the woods and over the hills and fields.'\n\nAre the claims that walking enhances creativity purely speculative? Dr. Paul Sowden, a professor of psychology, has noted: 'Walking has been shown to improve our ability to shift between modes of thought and to improve our attention, memory, and recovery from mental fatigue, all of which are important for thinking creatively.' Researchers Marily Oppezzo and Daniel Schwartz of Stanford University explored the purported link between walking and creativity. In one of their experiments, subjects were asked to brainstorm ideas under four different conditions: sitting indoors, walking on a treadmill indoors, being wheeled around outside in a wheelchair, and walking outdoors. The results, reported in the Journal of Experimental Psychology: Learning, Memory, and Cognition in 2014, provided measurable evidence to support the notion of solvitur ambulando for anyone facing the challenge of generating new ideas.",
+    "questions": [
+      {
+        "order": 18,
+        "question": "The main purpose of the first paragraph is to -",
+        "incorrectOptions": [
+          "explain how walking can help solve problems",
+          "present ways in which walking contributes to one's health",
+          "introduce Aristotle's philosophical views"
+        ],
+        "correctOption": "present the idea that walking improves one's thinking"
+      },
+      {
+        "order": 19,
+        "question": "According to the second paragraph, Beethoven, Wordsworth, and Thoreau -",
+        "incorrectOptions": [
+          "went walking when they needed to solve a problem",
+          "enjoyed good health as a result of walking",
+          "began most of their works while walking"
+        ],
+        "correctOption": "felt that walking was helpful to them"
+      },
+      {
+        "order": 20,
+        "question": "It can be inferred from the second paragraph that Beethoven's Pastoral Symphony -",
+        "incorrectOptions": [
+          "is most often performed outdoors",
+          "became Beethoven's best-known symphony",
+          "was the only one of Beethoven's works written about nature"
+        ],
+        "correctOption": "was begun after a walk in nature"
+      },
+      {
+        "order": 21,
+        "question": "The main purpose of the last paragraph is to -",
+        "incorrectOptions": [
+          "compare the claims of Sowden, Oppezzo, and Schwartz with regard to creativity",
+          "discuss ways to improve attention, memory, and recovery from mental fatigue",
+          "discuss the results of the Stanford University experiment"
+        ],
+        "correctOption": "present research that shows that walking has an impact on one's creative process"
+      },
+      {
+        "order": 22,
+        "question": "Which of the following statements would Dr. Sowden be most likely to agree with?",
+        "incorrectOptions": [
+          "Mental fatigue is the greatest challenge faced by creative people.",
+          "Creativity depends more on awareness than memory.",
+          "The creative process is most improved by sitting outside."
+        ],
+        "correctOption": "Claims that walking contributes to creativity are not speculative."
+      }
+    ]
+  }
+]
+   
+}

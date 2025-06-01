@@ -1,12 +1,22 @@
 // controllers/userController.js
 const { UserModel } = require("../models/User");
-const  UserProgress = require("../models/UserProgress");
+const UserProgress = require("../models/UserProgress");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const sendEmail = require("../utils/sendMail");
 require("dotenv").config();
-
+/*
 const saltRounds = 10;
+const REFRESH_TOKEN_TIME_IN_MILISECONDS = 7 * 24 * 60 * 60 * 1000; // 7 days
+const ACCESS_TOKEN_TIME_IN_MILISECONDS = 15 * 60 * 1000; // 15 minutes
+const REFRESH_TOKEN_TIME = "7d"; // 7 days
+const ACCESS_TOKEN_TIME = "15m"; // 15 minutes
+*/
+const saltRounds = 10;
+const REFRESH_TOKEN_TIME_IN_MILISECONDS = 7 * 24 * 60 * 60 * 1000; // 7 days
+const ACCESS_TOKEN_TIME_IN_MILISECONDS = 15 * 60 * 1000; // 15 minutes
+const REFRESH_TOKEN_TIME = "7d"; // 7 days
+const ACCESS_TOKEN_TIME = "15m"; // 15 minutes
 
 exports.signUp = async (req, res) => {
   try {
@@ -20,7 +30,7 @@ exports.signUp = async (req, res) => {
     }
 
     const hashedPassword = await bcrypt.hash(password, saltRounds);
-    
+
     const userProgress = await new UserProgress().save();
 
     const user = await UserModel.create({
@@ -33,10 +43,10 @@ exports.signUp = async (req, res) => {
     const payload = { _id: user._id, name: user.name, role: user.role };
 
     const accessToken = jwt.sign(payload, process.env.ACCESS_TOKEN_SECRET, {
-      expiresIn: "15m",
+      expiresIn: ACCESS_TOKEN_TIME,
     });
     const refreshToken = jwt.sign(payload, process.env.REFRESH_TOKEN_SECRET, {
-      expiresIn: "7d",
+      expiresIn: REFRESH_TOKEN_TIME,
     });
 
     user.refreshToken = refreshToken;
@@ -47,13 +57,13 @@ exports.signUp = async (req, res) => {
         httpOnly: true,
         secure: true,
         sameSite: "lax",
-        maxAge: 15 * 60 * 1000,
+        maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: true,
         sameSite: "lax",
-        maxAge: 7 * 24 * 60 * 60 * 1000,
+        maxAge: REFRESH_TOKEN_TIME_IN_MILISECONDS,
       })
       .status(200)
       .json({
@@ -85,10 +95,10 @@ exports.login = async (req, res) => {
     const payload = { _id: user._id, name: user.name, role: user.role };
 
     const accessToken = jwt.sign(payload, process.env.ACCESS_TOKEN_SECRET, {
-      expiresIn: "15m",
+      expiresIn: ACCESS_TOKEN_TIME,
     });
     const refreshToken = jwt.sign(payload, process.env.REFRESH_TOKEN_SECRET, {
-      expiresIn: "7d",
+      expiresIn: REFRESH_TOKEN_TIME,
     });
 
     user.refreshToken = refreshToken;
@@ -100,13 +110,13 @@ exports.login = async (req, res) => {
         httpOnly: true,
         secure: true, // רק אם יש HTTPS
         sameSite: "lax",
-        maxAge: 15 * 60 * 1000, // 15 דקות
+        maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: true,
         sameSite: "lax",
-        maxAge: 7 * 24 * 60 * 60 * 1000, // שבוע
+        maxAge: REFRESH_TOKEN_TIME_IN_MILISECONDS,
       })
       .status(200)
       .json({
@@ -120,20 +130,26 @@ exports.login = async (req, res) => {
 };
 
 exports.refreshToken = async (req, res) => {
+  console.log(
+    "refresh called" +
+      req.cookies.refreshToken +
+      "\n \n " +
+      req.cookies.accessToken
+  );
   const refreshToken = req.cookies.refreshToken;
   if (!refreshToken)
     return res.status(401).json({ message: "No token provided" });
 
   try {
     const user = await UserModel.findOne({ refreshToken });
-    if (!user) return res.status(403).json({ message: "Invalid token" });
+    if (!user) return res.status(401).json({ message: "Invalid token" });
 
     jwt.verify(
       refreshToken,
       process.env.REFRESH_TOKEN_SECRET,
       (err, decoded) => {
         if (err)
-          return res.status(403).json({ message: "Token verification failed" });
+          return res.status(401).json({ message: "Token verification failed" });
 
         const payload = {
           _id: decoded._id,
@@ -142,11 +158,23 @@ exports.refreshToken = async (req, res) => {
         };
 
         const accessToken = jwt.sign(payload, process.env.ACCESS_TOKEN_SECRET, {
-          expiresIn: "15m",
+          expiresIn: ACCESS_TOKEN_TIME,
         });
 
         // todo: act like login
-        res.status(200).json({ accessToken, refreshToken });
+        res
+          .cookie("accessToken", accessToken, {
+            httpOnly: true,
+            secure: true, // רק אם יש HTTPS
+            sameSite: "lax",
+            maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
+          })
+          .status(200)
+          .json({
+            email: user.email,
+            role: user.role,
+            name: user.name,
+          });
       }
     );
   } catch (err) {
@@ -162,11 +190,9 @@ exports.forgotPassword = (req, res) => {
       if (user) {
         sendEmail(user.email);
       }
-      res
-        .status(200)
-        .json({
-          message: "If a user with that email exists, a reset link was sent.",
-        });
+      res.status(200).json({
+        message: "If a user with that email exists, a reset link was sent.",
+      });
     })
     .catch((err) => {
       res.status(500).json({ message: err.message });

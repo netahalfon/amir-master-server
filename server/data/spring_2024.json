@@ -1,0 +1,441 @@
+{
+  "order": 4,
+  "name": "Spring 2024",
+  "type": "Psychometrics",
+  "chaptersSection1": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The brown pelican, a seabird found in North and South America, catches fish below the ____ of the water.",
+          "correctOption": "surface",
+          "incorrectOptions": ["vision", "index", "ordeal"]
+        },
+        {
+          "order": 2,
+          "question": "Alexander Fleming discovered penicillin after ____ that a mold growing in his laboratory could kill bacteria.",
+          "correctOption": "observing",
+          "incorrectOptions": ["opposing", "offending", "organizing"]
+        },
+        {
+          "order": 3,
+          "question": "The 1842 Webster-Ashburton Treaty ____ the dispute regarding the position of the Maine-New Brunswick border.",
+          "correctOption": "resolved",
+          "incorrectOptions": ["devised", "articulated", "inflicted"]
+        },
+        {
+          "order": 4,
+          "question": "In some states in India, the consumption of alcoholic beverages ____.",
+          "correctOption": "is prohibited",
+          "incorrectOptions": [
+            "were prohibiting",
+            "are prohibitive",
+            "has prohibited"
+          ]
+        },
+        {
+          "order": 5,
+          "question": "Bushido, the samurai code of ____, demands self-discipline, respectful and ethical behavior, and absolute loyalty.",
+          "correctOption": "conduct",
+          "incorrectOptions": ["impulse", "design", "regret"]
+        },
+        {
+          "order": 6,
+          "question": "St. Patrick's Day, which ____ the patron saint of Ireland, is celebrated in many countries.",
+          "correctOption": "commemorates",
+          "incorrectOptions": ["enumerates", "punctuates", "investigates"]
+        },
+        {
+          "order": 7,
+          "question": "A period film is one that attempts to ____ depict a specific time in history.",
+          "correctOption": "faithfully",
+          "incorrectOptions": ["luckily", "swiftly", "morally"]
+        },
+        {
+          "order": 8,
+          "question": "At the end of the 19th century in the United States, huge crowds attended competitive walking races, the most popular ____ sport in the country.",
+          "correctOption": "spectator",
+          "incorrectOptions": ["passenger", "companion", "graduate"]
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "order": 9,
+          "question": "For centuries, bars of salt – called amole – served as currency throughout Ethiopia.",
+          "correctOption": "Amole was an accepted means of payment in Ethiopia for centuries.",
+          "incorrectOptions": [
+            "Centuries ago, salt was a valuable commodity in Ethiopia.",
+            "Amole has been the currency of Ethiopia since ancient times.",
+            "Ethiopian salt was once prized all over the world."
+          ]
+        },
+        {
+          "order": 10,
+          "question": "Despite never having collaborated, Isaac Newton and Gottfried Leibniz share the credit for pioneering the branch of mathematics known as calculus.",
+          "correctOption": "The invention of calculus is attributed to both Newton and Leibniz, each of whom developed it independently.",
+          "incorrectOptions": [
+            "Newton and Leibniz were the first mathematicians to recognize calculus as a separate branch of mathematics.",
+            "Had they not shared their ideas about mathematics, neither Newton nor Leibniz would have discovered calculus.",
+            "To their credit, both Newton and Leibniz acknowledged each other's contribution to the field of calculus."
+          ]
+        },
+        {
+          "order": 11,
+          "question": "Horticulturists at England's East Malling Institute are utilizing conventional breeding techniques rather than genetic engineering to produce giant strawberries.",
+          "correctOption": "At the East Malling Institute in England, horticulturists are growing very large strawberries using conventional breeding methods, not genetic engineering.",
+          "incorrectOptions": [
+            "By using genetic engineering instead of conventional breeding techniques, horticulturists at England's East Malling Institute could grow larger strawberries.",
+            "According to horticulturists at England's East Malling Institute, giant strawberries can be produced using either conventional breeding techniques or genetic engineering.",
+            "Horticulturists at England's East Malling Institute have found that they can produce giant strawberries by using both genetic engineering and conventional breeding techniques."
+          ]
+        },
+        {
+          "order": 12,
+          "question": "The roots of opera can be traced to the Camerata, a group of Italian composers enamored of antiquity, who in the 16th century wrote music that emulated the tragic chorus in ancient Greek drama.",
+          "correctOption": "The Camerata, whose members were fascinated by the ancient world and whose works were modeled on the tragic Greek chorus, are considered the founders of opera.",
+          "incorrectOptions": [
+            "The tragic Greek chorus, which was the inspiration for opera, was incorporated into the works of the Camerata, a group of Italian composers.",
+            "The operas composed by the Camerata in the 16th century were the first to abandon the rigid structure of the Greek chorus.",
+            "The enduring appeal of the operas written by the Camerata is a testimony to the impact of the ancient Greek chorus."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "When someone describes a kind person as \"having a heart of gold\", they are quoting from William Shakespeare's play Henry V. Encouraging someone to \"break the ice\" in an awkward social situation is borrowing from The Taming of the Shrew. The English language as we know it owes a great debt to the preeminent playwright, who introduced hundreds of previously unknown words and phrases into its lexicon. Shakespeare greatly enhanced the English language by altering existing words to create new ones. One type of manipulation involved combining two words to create a new term, for example, the word \"watchdog\" in reference to a person who tries to prevent wrongdoing or illegal activity. Another strategy Shakespeare employed was using nouns as verbs. He was the first person to use \"friend\" as a verb, predating Facebook by almost 400 years. Shakespeare also anglicized words from foreign languages: for example the word \"critic\", which he derived from the Greek kritikos, meaning to judge or decide. He was also fond of adding prefixes and suffixes to existing words. According to James Shapiro of Columbia University, Shakespeare invented the words unaware, uncomfortable, uneducated, fashionable, and worthless, all of which are now deeply engrained in modern vernacular. Esteemed Shakespearean scholar David Crystal asserts that \"Shakespeare teaches us to dare to be creative, to push the rules a little bit. If the word isn't there, make one up.\" And indeed, the English language continues to evolve. In 2013, \"selfie\" was named the word of the year by the editors of the Oxford English Dictionary, a choice Shakespeare would undoubtedly have approved of.",
+      "questions": [
+        {
+          "order": 13,
+          "question": "An appropriate title for the text would be -",
+          "correctOption": "Lessons from Shakespeare: Helping the English Language to Evolve",
+          "incorrectOptions": [
+            "The Plays of William Shakespeare: Language Perfected",
+            "Evidence of Greatness: Shakespeare's Language Reinterpreted",
+            "From Shakespeare to Facebook: The History of the English Language"
+          ]
+        },
+        {
+          "order": 14,
+          "question": "Which of the following strategies for creating new words is not mentioned in the second paragraph?",
+          "correctOption": "replacing prefixes with suffixes",
+          "incorrectOptions": [
+            "creating English versions of words from other languages",
+            "connecting two words that already exist",
+            "using words in new ways"
+          ]
+        },
+        {
+          "order": 15,
+          "question": "It can be inferred from the second paragraph that Shakespeare used suffixes -",
+          "correctOption": "to alter the meaning of existing words",
+          "incorrectOptions": [
+            "more extensively than other methods of inventing new words",
+            "instead of prefixes whenever possible",
+            "to anglicize words"
+          ]
+        },
+        {
+          "order": 16,
+          "question": "The main purpose of the last paragraph is to -",
+          "correctOption": "show that today's English speakers continue to follow Shakespeare's example",
+          "incorrectOptions": [
+            "introduce a new English word",
+            "describe a Shakespearean scholar's work",
+            "present David Crystal's criticism of the Oxford English Dictionary"
+          ]
+        },
+        {
+          "order": 17,
+          "question": "It can be inferred from the last paragraph that David Crystal -",
+          "correctOption": "approves of the word \"selfie\"",
+          "incorrectOptions": [
+            "is one of the editors of the Oxford English Dictionary",
+            "believes that breaking the rules of language is irresponsible",
+            "thinks Shakespeare invented too many words"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "The sensation we refer to as pain is the result of a series of chemical reactions. When cells in the body are damaged, they release prostaglandins, chemicals that attach themselves to the nerve endings. The nerves then transmit a message to the brain, specifying the location and severity of the damage. As soon as our brain receives this message, we feel pain. At this point, we may reach for a pain reliever. Though pain relievers cannot cure disease or heal an injury, they do alleviate pain by disrupting the transmission of pain signals to the brain. There are two main kinds of medication for pain: non-steroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen and aspirin, and narcotics, such as morphine and codeine. NSAIDs are used to relieve the aches and pains caused by short-term ailments such as earache and muscle sprains, or chronic illnesses like arthritis. They inhibit damaged cells from producing prostaglandins and thus limit the number of pain signals that reach the brain. The relief lasts as long as the NSAIDs remain active in the body. Narcotics act in a different way. They attach to pain receptors in the brain and spinal cord, thereby blocking the pain signals. Narcotics are generally prescribed for patients suffering from long-term or extreme pain that does not respond to NSAIDs. In some cases, however, a combination of an NSAID and a narcotic relieves pain better than either kind of medication on its own.",
+      "questions": [
+        {
+          "order": 18,
+          "question": "An appropriate title for this text would be -",
+          "correctOption": "Feeling Pain and Dealing With It",
+          "incorrectOptions": [
+            "Pain Relievers: Advantages and Disadvantages",
+            "Pain: A Complex Chemical Reaction",
+            "The Nature of Chronic Pain"
+          ]
+        },
+        {
+          "order": 19,
+          "question": "The main purpose of the first paragraph is to -",
+          "correctOption": "explain what causes the sensation of pain",
+          "incorrectOptions": [
+            "describe different kinds of pain",
+            "describe the role of prostaglandins in the body",
+            "explain how the brain responds to pain"
+          ]
+        },
+        {
+          "order": 20,
+          "question": "According to the second paragraph, pain relievers -",
+          "correctOption": "do not remove the source of the pain",
+          "incorrectOptions": [
+            "should not be taken too often",
+            "are more effective against disease than injury",
+            "send healing signals to the brain"
+          ]
+        },
+        {
+          "order": 21,
+          "question": "\"They\" (line 15) refers, among other things, to -",
+          "correctOption": "codeine",
+          "incorrectOptions": [
+            "damaged cells",
+            "anti-inflammatory drugs",
+            "aspirin"
+          ]
+        },
+        {
+          "order": 22,
+          "question": "It can be inferred from the text that ibuprofen -",
+          "correctOption": "reduces the production of prostaglandins",
+          "incorrectOptions": [
+            "remains in the body long after it is taken",
+            "is the best pain reliever",
+            "should not be used together with morphine"
+          ]
+        }
+      ]
+    }
+  ],
+  "chaptersSection2": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "There has been a decline in the population of honey bees ____.",
+          "correctOption": "in recent years",
+          "incorrectOptions": ["at the moment", "long ago", "someday soon"]
+        },
+        {
+          "order": 2,
+          "question": "Byron Nicholai is a popular Alaskan singer whose songs feature a ____ of words from English and his native Yup'ik.",
+          "correctOption": "blend",
+          "incorrectOptions": ["scene", "crack", "rate"]
+        },
+        {
+          "order": 3,
+          "question": "The Gifu region in central Japan was ____ by the Great Earthquake of 1891.",
+          "correctOption": "devastated",
+          "incorrectOptions": ["enlightened", "intercepted", "certified"]
+        },
+        {
+          "order": 4,
+          "question": "Once common across Europe and Asia, the Eurasian beaver was nearly ____ by hunting in the nineteenth century.",
+          "correctOption": "wiped out",
+          "incorrectOptions": ["held back", "shown off", "counted on"]
+        },
+        {
+          "order": 5,
+          "question": "The leaves of the dragon's blood tree collect ____ from the air, enabling the tree to survive in places where there is little water.",
+          "correctOption": "moisture",
+          "incorrectOptions": ["pollution", "emphasis", "applause"]
+        },
+        {
+          "order": 6,
+          "question": "In November 2014, construction workers digging up a road in Iceland's Thingvellir National Park ____ paving stones from a road built in 1907.",
+          "correctOption": "unearthed",
+          "incorrectOptions": ["disgraced", "convicted", "outweighed"]
+        },
+        {
+          "order": 7,
+          "question": "Reviews of the 1995 film adaptation of Nathaniel Hawthorne's classic novel The Scarlet Letter were unfavorable, describing it as ____ at best.",
+          "correctOption": "mediocre",
+          "incorrectOptions": ["omniscient", "jubilant", "arbitrary"]
+        },
+        {
+          "order": 8,
+          "question": "In September 2012, the German government ____ media reports that it planned to stop using the Euro as the national currency, claiming they were absurd.",
+          "correctOption": "dismissed",
+          "incorrectOptions": ["imposed", "obtained", "accommodated"]
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "order": 9,
+          "question": "Every year, a hundred million monarch butterflies from across eastern North America converge on Mexico's Monarch Butterfly Biosphere Reserve, where they spend the winter.",
+          "correctOption": "A hundred million monarch butterflies come from all over eastern North America each year to Mexico's Monarch Butterfly Biosphere Reserve for the winter.",
+          "incorrectOptions": [
+            "Each year, a hundred million monarch butterflies arrive at Mexico's Monarch Butterfly Biosphere Reserve after spending the winter in eastern North America.",
+            "Mexico's Monarch Butterfly Biosphere Reserve was created as a winter habitat for the hundred million monarch butterflies of eastern North America.",
+            "During the winter, Mexico's Monarch Butterfly Biosphere Reserve is home to a hundred million monarch butterflies, most of them from eastern North America."
+          ]
+        },
+        {
+          "order": 10,
+          "question": "Brain cells that have died from old age, injury or disease cannot be regenerated – or so it was long assumed, until research began to indicate otherwise.",
+          "correctOption": "For many years, people thought that once brain cells died, they did not grow back; however, studies have begun to show that this is not the case.",
+          "incorrectOptions": [
+            "Studies now suggest that old age, injury and disease cause brain cells to deteriorate much more quickly than was previously believed.",
+            "Recent research supports what has long been believed – brain cells that have died cannot be regenerated.",
+            "Until research began to indicate otherwise, it was commonly assumed that brain cells damaged by old age, injury or disease could be repaired."
+          ]
+        },
+        {
+          "order": 11,
+          "question": "Given that the information regarding the final days of American author Edgar Allan Poe is fragmentary and contradictory, it is hard to imagine that there will ever be a completely satisfactory answer as to what caused his death.",
+          "correctOption": "The way in which Poe died will probably never be fully explained because the facts available are incomplete and inconsistent.",
+          "incorrectOptions": [
+            "Recently discovered details about Poe's last days are being pieced together into a credible and persuasive theory about his death.",
+            "There is little consensus about the circumstances surrounding Poe's death.",
+            "The cause of Poe's death will remain a mystery until more is known about his final days."
+          ]
+        },
+        {
+          "order": 12,
+          "question": "Delivered in the waning months of the US Civil War, President Abraham Lincoln's second inaugural speech was notable for its brevity and its dispirited tone.",
+          "correctOption": "Towards the end of the US Civil War, Lincoln delivered his second inaugural speech, which was strikingly short and somber.",
+          "incorrectOptions": [
+            "In the midst of the US Civil War, Lincoln gave his second inaugural speech, which was inspiring but restrained.",
+            "In his second inaugural speech, Lincoln displayed the same courage and vision that had proven vital during the US Civil War.",
+            "Lincoln's second inaugural speech, delivered shortly after the US Civil War, is remembered for its simplicity and its hopeful message."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "According to researchers, habits account for about 40 percent of our behaviors on any given day. Understanding the nature of habits and learning how to form beneficial ones or change harmful ones is essential in life. For many people, however, creating new behavior patterns is an almost impossible task. The key to success lies in something called the habit loop. But briefly, a habit loop consists of a cue, a routine and a reward. In his best-selling book The Power of Habit, Charles Duhigg gives teeth brushing as an example. He explains that waking up in the morning with film on one's teeth is the cue that leads people to go through the routine of brushing their teeth, thereby yielding the reward of a clean and fresh feeling in their mouth. Research shows that it was the fresh taste of a new mint-flavored toothpaste called Pepsodent, in addition to the desire to remove the layer of plaque that gathers on teeth, that gave rise to the widespread practice of teeth brushing in the United States at the beginning of the 20th century. Customers claimed that they began looking forward to the cool and tingling sensation created by the toothpaste. The habit loop took hold and there was soon a soaring demand for Pepsodent and other mint-flavored toothpastes. In order to create a new habit or get rid of an old one it is necessary not just to identify a cue, a routine and a reward, but also to cultivate a craving that drives the loop. Duhigg explains that the reason people fail in their attempt to turn a new behavior into a set habit is that a one-time reward is not enough. Only when a behavior is repeated – and rewarded – a number of times does the brain begin anticipating the reward. Once the new routine has become automatic, a habit has been established.",
+      "questions": [
+        {
+          "order": 13,
+          "question": "The main purpose of the text is to -",
+          "correctOption": "discuss how habits are formed and how to change them",
+          "incorrectOptions": [
+            "compare the characteristics of beneficial and harmful habits",
+            "explain the brain's role in establishing cues, routines and rewards",
+            "present an example of a habit loop that is difficult to change"
+          ]
+        },
+        {
+          "order": 14,
+          "question": "The main purpose of the second paragraph is to -",
+          "correctOption": "give an example of a habit loop",
+          "incorrectOptions": [
+            "explain why teeth brushing is a beneficial habit",
+            "discuss the differences between cues, routines and rewards",
+            "present Charles Duhigg's book The Power of Habit"
+          ]
+        },
+        {
+          "order": 15,
+          "question": "In line 17, \"an old one\" could best be replaced by -",
+          "correctOption": "a bad habit",
+          "incorrectOptions": [
+            "an essential routine",
+            "a repeated reward",
+            "a failed attempt"
+          ]
+        },
+        {
+          "order": 16,
+          "question": "Which of the following is an example of a habit loop?",
+          "correctOption": "seeing your phone battery is low → charging the phone battery → being able to use your phone",
+          "incorrectOptions": [
+            "paying your rent → buying a new sofa → saving money",
+            "waking up in the morning → eating a healthy breakfast → going to bed early",
+            "coming home from work → watching your favorite TV show → taking the dog for a walk"
+          ]
+        },
+        {
+          "order": 17,
+          "question": "According to the text, a habit is -",
+          "correctOption": "an automatic behavior",
+          "incorrectOptions": [
+            "a routine that cannot be changed",
+            "a craving with a one-time reward",
+            "a reward in itself"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "Medieval Italian scholar Leonardo Fibonacci (c. 1170-1240) ranks among the foremost mathematicians of all time. One of his most significant contributions to the field of mathematics was the dissemination of the Hindu-Arabic number system, based on the digits zero to nine (0-9), which is used all over the world today. Fibonacci first encountered Hindu-Arabic numerals when, as a child, he spent several years in North Africa with his family. Years later, he traveled widely in the Mediterranean world, delving further into the Hindu-Arabic number system and discovering its advantages over the Roman number system then in use in Europe. In 1202, after returning to his native Pisa, he published the Liber abaci (Book of Calculation), the first work to introduce Hindu-Arabic numerals to Europe. Fibonacci's text demonstrated the usefulness of these numbers for practical, everyday arithmetic purposes such as money changing and the conversion of weights and measures. The book, which also discusses subjects such as geometry, algebra, and theoretical mathematics, drew the attention of leading scholars throughout Europe. Holy Roman Emperor Frederick II, who was deeply interested in the arts and sciences, found the Liber abaci intriguing and asked to meet its author. For several years afterward, Fibonacci corresponded with the emperor and court scholars, exploring mathematical problems and their solutions. When Fibonacci published his most innovative work, the Liber quadratorum (Book of Square Numbers) in 1225, he dedicated it to the emperor. Although the Liber quadratorum was Fibonacci's most sophisticated achievement and constituted a major contribution to the field of mathematics, the Liber abaci is broader in scope and was ultimately a more influential work.",
+      "questions": [
+        {
+          "order": 18,
+          "question": "According to the text, the Hindu-Arabic number system -",
+          "correctOption": "uses ten different digits",
+          "incorrectOptions": [
+            "is related to the Roman number system",
+            "was actually developed by Europeans",
+            "is no longer in use"
+          ]
+        },
+        {
+          "order": 19,
+          "question": "According to the second paragraph, Fibonacci -",
+          "correctOption": "learned of the Hindu-Arabic numeral system in North Africa",
+          "incorrectOptions": [
+            "dreamed of becoming a mathematician as a young boy",
+            "was the first European scholar to write about practical and theoretical mathematics",
+            "became familiar with the Roman numeral system during his travels"
+          ]
+        },
+        {
+          "order": 20,
+          "question": "It can be inferred from the second paragraph that the Liber abaci -",
+          "correctOption":"is based on what Fibonacci learned in his travels",
+          "incorrectOptions": [
+             "presents the advantages and disadvantages of the Hindu-Arabic number system",
+            "demonstrates how to combine the Hindu-Arabic number system with the Roman number system",
+            "is devoted entirely to practical arithmetic"
+          ]
+        },
+        {
+          "order": 21,
+          "question": "According to the last paragraph, the Liber quadratorum -",
+          "correctOption": "covers fewer subjects than the Liber abaci",
+          "incorrectOptions": [
+            "was Fibonacci's most famous work",
+            "took a long time to write",
+            "was not only about mathematics"
+          ]
+        },
+        {
+          "order": 22,
+          "question": "The last paragraph does not mention -",
+          "correctOption": "Frederick II's response to the Liber quadratorum",
+          "incorrectOptions": [
+            "Fibonacci's most innovative work",
+            "Frederick II's intellectual interests",
+            "Fibonacci's relationship with other scholars"
+          ]
+        }
+      ]
+    }
+  ]
+}

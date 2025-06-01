@@ -1,0 +1,441 @@
+{
+  "order": 5,
+  "name": "Summer 2024",
+  "type": "Psychometrics",
+  "chaptersSection1": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "question": "The walrus uses its whiskers to ____ shellfish hidden on the ocean floor.",
+          "incorrectOptions": ["forbid", "praise", "recall"],
+          "correctOption": "detect",
+          "order": 1
+        },
+        {
+          "question": "With the capacity to generate 2.4 million kilowatts, the Niagara Power Project is the largest ____ of electricity to New York State.",
+          "incorrectOptions": ["forecaster", "inspector", "editor"],
+          "correctOption": "supplier",
+          "order": 2
+        },
+        {
+          "question": "According to world aviation officials, 2017 was ____ to date for commercial air travel.",
+          "incorrectOptions": [
+            "safely considered",
+            "particularly safe",
+            "a safer year"
+          ],
+          "correctOption": "the safest year",
+          "order": 3
+        },
+        {
+          "question": "DNA evidence has been used to clear people ____ convicted of crimes.",
+          "incorrectOptions": ["easily", "mostly", "finally"],
+          "correctOption": "wrongly",
+          "order": 4
+        },
+        {
+          "question": "In October 2000, the Bill and Melinda Gates Foundation set up a scholarship fund at Cambridge University to ____ the tuition of international graduate students.",
+          "incorrectOptions": ["visualize", "intimidate", "emulate"],
+          "correctOption": "subsidize",
+          "order": 5
+        },
+        {
+          "question": "Although alpaca farmers trim their animals' wool regularly, they only ____ them completely once every two years.",
+          "incorrectOptions": ["merge", "bait", "crease"],
+          "correctOption": "shear",
+          "order": 6
+        },
+        {
+          "question": "Muslims are required to make a ____ to the holy city of Mecca at least once in their lifetime, if they have the means to do so.",
+          "incorrectOptions": ["precedent", "principle", "portfolio"],
+          "correctOption": "pilgrimage",
+          "order": 7
+        },
+        {
+          "question": "In response to the Soviet Union's increasingly ____ stance towards dissidents, physicist Andrei Sakharov became active in the human rights movement.",
+          "incorrectOptions": ["reverent", "sanitary", "subsequent"],
+          "correctOption": "repressive",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "question": "Ladybugs prey on pests and hence are beneficial to gardens.",
+          "incorrectOptions": [
+            "Like other pests, ladybugs damage the plants in a garden.",
+            "Ladybugs feed on garden plants and on other insects.",
+            "The presence of ladybugs in a garden keeps pests away."
+          ],
+          "correctOption": "Ladybugs, which eat harmful insects, are helpful in gardens.",
+          "order": 9
+        },
+        {
+          "question": "Composer and conductor Leonard Bernstein was tireless in his efforts to bring classical music to a wider audience.",
+          "incorrectOptions": [
+            "Bernstein's many admirers never tired of his classical compositions.",
+            "Bernstein's classical music appealed to many different types of audiences.",
+            "Bernstein adapted classical compositions with the aim of making them more popular."
+          ],
+          "correctOption": "Bernstein dedicated himself to making classical music accessible to more people.",
+          "order": 10
+        },
+        {
+          "question": "The 16th-century political philosopher Machiavelli was adamant that political morality is not bound by ethical norms.",
+          "incorrectOptions": [
+            "Machiavelli argued that, by their very nature, politicians are bound to behave unethically.",
+            "According to Machiavelli, politicians have a moral obligation to serve as examples of ethical behavior.",
+            "Although politics has few ethical norms, there are certain moral boundaries that politicians must not cross, according to Machiavelli."
+          ],
+          "correctOption": "Machiavelli insisted that the ethical norms governing life do not apply to politics.",
+          "order": 11
+        },
+        {
+          "question": "Italian tenor Enrico Caruso made his American debut in a production of Verdi's Rigoletto at the Metropolitan Opera.",
+          "incorrectOptions": [
+            "Verdi's Rigoletto debuted in the United States at the Metropolitan Opera and featured Enrico Caruso.",
+            "Enrico Caruso's first starring role was in the Metropolitan Opera's production of Verdi's Rigoletto.",
+            "Enrico Caruso appeared in Verdi's Rigoletto at the opening of the Metropolitan Opera."
+          ],
+          "correctOption": "Enrico Caruso's first performance in the United States was at the Metropolitan Opera in Verdi's Rigoletto.",
+
+          "order": 12
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "Almost a century after his death, a new book by French author Jules Verne, Paris in the 20th Century, was published. The manuscript of this hitherto unknown novel was completed in 1863 but then locked away in a safe. It was discovered in 1989 by Verne's great-grandson and appeared in English translation only in 1996. This 19th-century vision of the future describes life among skyscrapers of glass and steel, high-speed trains, gasoline-powered automobiles, calculators, fax machines, and a global communications network. Verne's remarkable ability to foresee technological advances and to describe them – even before their invention – is demonstrated in this novel, as in many of the works that made him famous, including Twenty Thousand Leagues Under the Sea and From the Earth to the Moon.\n\nHowever, this work counters the popular perception of Verne as an enthusiastic advocate of scientific progress. In fact, Paris in the 20th Century is a tragedy. It portrays the life of an idealistic young man who struggles unsuccessfully to find happiness in the fiercely materialistic world of the late 20th century. Verne's novel is a grim and troubling commentary on the high social costs of technological progress.\n\nAnother common misconception about Verne is that he wrote about the wonders of technology because he was himself a scientist or an engineer. In truth, Verne was neither. The wealth of technical and scientific detail in Verne's fiction reflects his desire to depict – as persuasively as possible – the extraordinary power, as well as the far-reaching danger, of science and technology. Though he found science fascinating, he had no illusions that it was inherently virtuous.",
+      "questions": [
+        {
+          "question": "The main purpose of the first paragraph is to -",
+          "incorrectOptions": [
+            "compare Paris in the 20th Century to other novels by Jules Verne",
+            "explain why Paris in the 20th Century was not published until 1989",
+            "argue that Paris in the 20th Century is Jules Verne's greatest work"
+          ],
+          "correctOption": "discuss the publication and content of Paris in the 20th Century",
+          "order": 13
+        },
+        {
+          "question": "According to the first paragraph, in Paris in the 20th Century Jules Verne -",
+          "incorrectOptions": [
+            "described life in Paris as he experienced it toward the end of his lifetime",
+            "tried to show readers the importance of 20th-century technological advances",
+            "introduced subjects that had not been discussed in his other novels"
+          ],
+          "correctOption": "accurately predicted what life would be like in the 20th century",
+          "order": 14
+        },
+        {
+          "question": "The main idea of the second paragraph is that Paris in the 20th Century -",
+          "incorrectOptions": [
+            "tells the story of a young man's struggle to find happiness",
+            "should have been published many years ago",
+            "was not understood at the time it was published"
+          ],
+          "correctOption": "presents a grim view of technological progress",
+          "order": 15
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": [
+            "explain why Verne thought that science could be dangerous",
+            "compare Verne's work as a writer to his work as a scientist",
+            "emphasize the wealth of detail in Verne's fiction"
+          ],
+          "correctOption": "correct a common misconception about Verne",
+          "order": 16
+        },
+        {
+          "question": "In line 21, 'he had no . . . virtuous' means that Verne -",
+          "incorrectOptions": [
+            "tried to depict technology as negatively as possible",
+            "did not fully understand all the technical details he included in his books",
+            "did not believe that his vision of the future would prove to be accurate"
+          ],
+          "correctOption": "did not believe that science was necessarily good",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "The Great Wildebeest Migration is among the most astounding wildlife spectacles in the world. Over a million and a half wildebeest – the world's largest herd of animals – move constantly in an endless loop that stretches from the Serengeti National Park in Tanzania to the Maasai Mara National Reserve in Kenya and back again. Following almost the same path each year, the animals make a formidable 2,900-kilometer trek in search of water and greener pastures.\n\nThe wildebeest is well equipped to travel large distances quickly and efficiently. Every aspect of its life and behavior lends itself to travel. Wildebeest even mate on the move, and newborn calves are up and running in minutes. Nevertheless, the journey across the plains of east Africa is perilous. Hyenas, lions, leopards, cheetahs and other predators lurk along the way, and massive crocodiles patrol the Grumeti and Mara Rivers, which the wildebeest must cross. Every day brings challenges that many will not survive.\n\nNevertheless, the epic migration of the wildebeest goes on. In it, a natural equilibrium is maintained: the wildebeest fertilize the Serengeti plains as they advance, encouraging new plant growth, while at the same time constituting an essential source of food for many other species. Anyone who is fortunate enough to witness the seething mass of animals and hear the thundering of their hooves can only marvel at the sheer magnitude of the phenomenon.",
+      "questions": [
+        {
+          "question": "The main purpose of the text is to discuss the -",
+          "incorrectOptions": [
+            "life cycle of the wildebeest",
+            "phenomenon of animal migration",
+            "struggle for survival in east Africa"
+          ],
+          "correctOption": "endless journey of the wildebeest",
+          "order": 18
+        },
+        {
+          "question": "Which of the following statements about the Great Wildebeest Migration is not made in the first paragraph?",
+          "incorrectOptions": [
+            "It passes through more than one country.",
+            "Its route changes very little.",
+            "It covers a great distance."
+          ],
+          "correctOption": "It has been taking place since ancient times.",
+          "order": 19
+        },
+        {
+          "question": "In line 8, 'lends itself to' is closest in meaning to -",
+          "incorrectOptions": [
+            "has an effect on",
+            "is good for",
+            "can be substituted for"
+          ],
+          "correctOption": "must be stopped in order to",
+
+          "order": 20
+        },
+        {
+          "question": "According to the last paragraph, the wildebeest migration -",
+          "incorrectOptions": [
+            "has attracted a great deal of attention in recent years",
+            "is gradually decreasing in size",
+            "has never been observed from beginning to end"
+          ],
+          "correctOption": "contributes to the balance of nature in east Africa",
+          "order": 21
+        },
+        {
+          "question": "Which of the following statements about wildebeest is not made in the text?",
+          "incorrectOptions": [
+            "They need to keep up with the herd from a very young age.",
+            "They always travel together.",
+            "They migrate in search of water and food."
+          ],
+          "correctOption": "They change their route to avoid predators.",
+          "order": 22
+        }
+      ]
+    }
+  ],
+  "chaptersSection2": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "question": "The Amish people are ____: they believe that war is immoral.",
+          "incorrectOptions": ["martyrs", "scribes", "fugitives"],
+          "correctOption": "pacifists",
+          "order": 1
+        },
+        {
+          "question": "Many manufacturing companies offer small promotional gifts in order to ____ sales of their products.",
+          "incorrectOptions": ["hint", "sift", "weave"],
+          "correctOption": "boost",
+          "order": 2
+        },
+        {
+          "question": "In 1929, English explorer Vivian Ernest Fuchs participated in a geological ____ to eastern Greenland.",
+          "incorrectOptions": ["hypothesis", "conversion", "acquaintance"],
+          "correctOption": "expedition",
+          "order": 3
+        },
+        {
+          "question": "Cigarette smoke ____ a toxic residue on furniture and clothing that is referred to as third-hand smoke.",
+          "incorrectOptions": ["finds", "pulls", "rides"],
+          "correctOption": "leaves",
+          "order": 4
+        },
+        {
+          "question": "The famed Sydney Opera House has a distinct shape that makes it ____.",
+          "incorrectOptions": [
+            "immediate recognition",
+            "recognize right away",
+            "possibly recognizing"
+          ],
+          "correctOption": "instantly recognizable",
+          "order": 5
+        },
+        {
+          "question": "In order for ____ results to be obtained, scientific experiments must be conducted under strictly controlled conditions.",
+          "incorrectOptions": ["tasteful", "heightened", "straightened"],
+          "correctOption": "meaningful",
+          "order": 6
+        },
+        {
+          "question": "The 200-mile-long River Thames is ____ with hundreds of small islands.",
+          "incorrectOptions": ["prized", "stripped", "faced"],
+          "correctOption": "dotted",
+          "order": 7
+        },
+        {
+          "question": "The most ____ feature of the Erechtheum temple in Athens is its southern portion, which showcases six sculpted female figures.",
+          "incorrectOptions": ["reciprocal", "negligent", "adverse"],
+          "correctOption": "striking",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "order": 2,
+      "questions": [
+        {
+          "question": "Borneo's orangutan population is in sharp decline.",
+          "incorrectOptions": [
+            "Borneo's orangutans have all but disappeared.",
+            "Most of the world's remaining orangutans are found in Borneo.",
+            "In Borneo, the orangutans' habitat is becoming smaller."
+          ],
+          "correctOption": "The number of orangutans in Borneo is dropping dramatically.",
+          "order": 9
+        },
+        {
+          "question": "Biologists have studied the mating rituals of only a small percentage of the roughly 12,000 known species of butterflies.",
+          "incorrectOptions": [
+            "The mating rituals of nearly 12,000 different species of butterflies have been studied by biologists.",
+            "More than 12,000 studies on butterflies have been conducted by biologists; only a small percentage explore mating rituals.",
+            "According to biologists, there are only small variations in the mating rituals of the 12,000 known species of butterflies."
+          ],
+          "correctOption": "Approximately 12,000 species of butterflies have been identified, but biologists have studied the mating rituals of relatively few of them.",
+          "order": 10
+        },
+        {
+          "question": "Reading John Lukacs is always rewarding.",
+          "incorrectOptions": [
+            "All of John Lukacs's books are exciting to read.",
+            "The writings of John Lukacs are never difficult to understand.",
+            "Everything about John Lukacs's works is brilliant."
+          ],
+          "correctOption": "Anything written by John Lukacs is worth reading.",
+          "order": 11
+        },
+        {
+          "question": "Following years of stagnation, the city of Duluth, Minnesota, is poised for a period of prosperity.",
+          "incorrectOptions": [
+            "The prosperity currently enjoyed by Duluth is expected to continue.",
+            "As Duluth expands, it is becoming an increasingly attractive urban center.",
+            "Duluth's recent change of leadership promises to stimulate development."
+          ],
+          "correctOption": "Duluth's financial future is looking bright after a long economic standstill.",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "Millions of people suffer from Crohn's disease, colitis, and other gastrointestinal disorders. The gastrointestinal tract, which includes the stomach as well as the large and small intestines, is long, narrow, and winding. The limited accessibility of the tract, and particularly of the small intestine, sometimes makes it difficult, or even impossible, to use traditional diagnostic methods such as X-ray or ultrasound. Even endoscopy – a procedure in which a long, thin, flexible tube with a camera on its end is inserted into the gastrointestinal tract by way of the patient's mouth – cannot reach all parts of the small intestine. Capsule endoscopy, invented by Israeli engineer Gavriel Iddan, changed all that.\n\nIddan revolutionized endoscopy by applying the principles of nanotechnology – the miniaturization of components – to the standard medical technique. His invention comprises a miniature camera, a battery, a light, and a wireless transmitter, all contained in a capsule the size of a large vitamin pill. The patient swallows the device, which then moves painlessly along the entire gastrointestinal tract, capturing images along the way. The tiny camera takes two color pictures every second for eight hours. These images are transmitted to a small, portable recording device and are later examined on a computer screen.\n\nCapsule endoscopy has made diagnosis possible in many hitherto unresolvable cases. Furthermore, it is less invasive than standard endoscopy and there is no discomfort involved. In fact, patients can even work or drive while undergoing the procedure. Gastroenterologists have discovered many additional applications for this technology. For example, different versions of the capsule can be used to administer drugs directly to an affected area or for other therapeutic purposes. Many physicians regard the device as a medical miracle.",
+      "questions": [
+        {
+          "question": "It can be inferred from the first paragraph that endoscopy is ____ than the use of X-ray or ultrasound in diagnosing gastrointestinal disorders.",
+          "incorrectOptions": [
+            "less painful",
+            "more traditional",
+            "less complicated"
+          ],
+          "correctOption": "more effective",
+          "order": 13
+        },
+        {
+          "question": "In line 6, 'its' refers to the -",
+          "incorrectOptions": ["intestine", "camera", "procedure"],
+          "correctOption": "tube",
+          "order": 14
+        },
+        {
+          "question": "The second paragraph mentions nanotechnology because it -",
+          "incorrectOptions": [
+            "is the fastest means of diagnosing gastrointestinal disorders",
+            "has become a standard medical procedure",
+            "combines a number of scientific approaches"
+          ],
+          "correctOption": "made possible the development of capsule endoscopy",
+          "order": 15
+        },
+        {
+          "question": "In line 23, 'affected' is closest in meaning to -",
+          "incorrectOptions": ["additional", "therapeutic", "medical"],
+          "correctOption": "diseased",
+          "order": 16
+        },
+        {
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": [
+            "New Applications for Nanotechnology",
+            "A Medical Miracle: Curing Gastrointestinal Diseases",
+            "Endoscopy and Other Diagnostic Procedures"
+          ],
+          "correctOption": "Engineering Meets Medicine: Capsule Endoscopy",
+
+          "order": 17
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "In 1897, British colonial forces invaded the Kingdom of Benin, located in what is now southern Nigeria. Within days, the British destroyed Benin City, bringing to an end a kingdom that had thrived for centuries as one of West Africa's major powers. In the course of their conquest, British troops looted at least 3,000 valuable objects, including statues, ceramics, masks, and over 1,000 intricately decorated plaques that adorned ancestral altars and court buildings in the city's royal palace. More than a century later, these artworks – now collectively known as the Benin Bronzes – are in the possession of over 150 museums, institutions, and private collections around the world.\n\nFor many Nigerians today, the Benin Bronzes are a painful reminder of colonialism and its continued effects on African societies. For decades, Nigerian leaders and the country's Legacy Restoration Trust (LRT) have advocated for the artifacts' return. Nigerian-American artist Victor Ehikhamenor wrote an impassioned New York Times op-ed on the subject in 2020. His essay concluded: \"Generations of Africans have already lost incalculable history and cultural reference points because of the absence of some of the best artworks created on the continent. We shouldn't have to ask, over and over, to get back what is ours.\"\n\nAs a result of his and other intense efforts to secure the restoration of the Benin Bronzes, several museums have declared their intention to relinquish the contested treasures. In July 2022, an agreement was signed between Germany and Nigeria, transferring ownership of over 1,100 Bronzes currently in German museums to Nigeria. Nevertheless, the path toward full repatriation of all the treasures remains protracted and complex, with many museums around the world refusing even to discuss the issue.\n\nA case in point is London's British Museum, which houses 900 looted Benin objects – the largest collection of any institution in the world. The museum has, however, historically resisted public requests for the works' restitution. There is perhaps a glimmer of hope (and admission of responsibility) in the 2021 statement issued by a British Museum spokeswoman acknowledging that the Bronzes were taken in circumstances of \"devastation and plunder\".",
+      "questions": [
+        {
+          "question": "The main purpose of the first paragraph is to -",
+          "incorrectOptions": [
+            "provide an overview of Benin's artistic tradition",
+            "present the background to Britain's conquest of the Kingdom of Benin",
+            "explain how the Benin Bronzes got their name"
+          ],
+          "correctOption": "introduce museum artifacts that were plundered from Benin",
+
+          "order": 18
+        },
+        {
+          "question": "The main purpose of the second paragraph is to -",
+          "incorrectOptions": [
+            "describe the work of the Legacy Restoration Trust",
+            "introduce a leading Nigerian-American artist",
+            "explain why the Benin Bronzes are a painful reminder of colonialism"
+          ],
+          "correctOption": "present voices calling for the return of the Benin Bronzes",
+          "order": 19
+        },
+        {
+          "question": "\"Nevertheless\" (line 21) could best be restated as -",
+          "incorrectOptions": [
+            "Despite securing the restoration of the Benin Bronzes",
+            "Even though German museums hold a large number of Benin Bronzes",
+            "Although many institutions will not discuss the Benin Bronzes in their collections"
+          ],
+          "correctOption": "Although some museums have said they are willing to give up the Benin Bronzes",
+          "order": 20
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": [
+            "present the British Museum's acknowledgement that the Benin Bronzes were wrongfully taken",
+            "explain how so many Benin Bronzes ended up in the British Museum",
+            "describe the British Museum's collection of Benin Bronzes"
+          ],
+          "correctOption": "discuss the British Museum's position on returning the Benin Bronzes that it holds",
+          "order": 21
+        },
+        {
+          "question": "It can be inferred from the text that one reason many museums refuse to discuss returning the Bronzes is because the objects -",
+          "incorrectOptions": [
+            "were legally purchased from Benin",
+            "might get damaged",
+            "represent colonialism"
+          ],
+          "correctOption": "are so valuable",
+          "order": 22
+        }
+      ]
+    }
+  ]
+}

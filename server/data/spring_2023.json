@@ -1,0 +1,321 @@
+{
+  "order": 2,
+  "name": "Spring 2023",
+  "type": "Psychometrics",
+  "chaptersSection1": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "question": "Historians believe that the present-day city of Vitoria-Gasteiz is built on the ____ of Victoriacum, a 6th-century Visigoth city.",
+          "incorrectOptions": "['tact', 'sore', 'trend']",
+          "correctOption": "site",
+          "order": 1
+        },
+        {
+          "question": "In ancient times, Ireland's leaders would ____ at the Hill of Tara in County Meath to discuss matters of public importance.",
+          "incorrectOptions": "['expand', 'recover', 'collapse']",
+          "correctOption": "assemble",
+          "order": 2
+        },
+        {
+          "question": "Basic mathematical operations, such as addition and ____, are necessary for everyday life.",
+          "incorrectOptions": "['management', 'excitement', 'instruction']",
+          "correctOption": "subtraction",
+          "order": 3
+        },
+        {
+          "question": "Many natural phenomena that appear to be totally random actually follow ____ patterns.",
+          "incorrectOptions": "['fanciful', 'resourceful', 'tolerable']",
+          "correctOption": "predictable",
+          "order": 4
+        },
+        {
+          "question": "World War II is the ____ for Joseph Heller’s first novel, Catch-22, which describes the experiences of a U.S. Air Force pilot.",
+          "incorrectOptions": "['shortcut', 'standby', 'outbreak']",
+          "correctOption": "backdrop",
+          "order": 5
+        },
+        {
+          "question": "Many of San Francisco’s libraries were destroyed or damaged in the 1906 earthquake and fire; the only major collection to be preserved ____ was the Bancroft Library.",
+          "incorrectOptions": "['discreet', 'alert', 'sober']",
+          "correctOption": "intact",
+          "order": 6
+        },
+        {
+          "question": "Hamlet, the main character in Shakespeare’s play of the same name, is a complex figure who has ____ audiences for centuries.",
+          "incorrectOptions": "['allocated', 'encountered', 'obstructed']",
+          "correctOption": "intrigued",
+          "order": 7
+        },
+        {
+          "question": "In contrast to the ostentatious ____ favored by other aristocrats of his day, Holy Roman Emperor Charles V adopted a simple wardrobe.",
+          "incorrectOptions": "['vocation', 'pedestal', 'omen']",
+          "correctOption": "attire",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "question": "A rainbow comprises a primary and a secondary bow, though the latter is frequently too faint to be visible.",
+          "incorrectOptions": "['All rainbows include two bows: the primary one which is formed first, and the secondary one which is formed second.', 'Though a rainbow’s secondary bow is fainter than the primary bow, it often lasts longer.', 'In most rainbows, the secondary bow is partially hidden by the primary bow.']",
+          "correctOption": "A rainbow consists of two bows but, in many cases, only the primary one is bright enough to be seen.",
+          "order": 9
+        },
+        {
+          "question": "Following the 1848 publication of Orson S. Fowler’s book The Octagon House: A Home for All, several thousand such houses sprang up in the United States and Canada.",
+          "incorrectOptions": "['The construction of thousands of octagonal houses in the United States and Canada was inspired by Orson S. Fowler’s 1848 book The Octagon House: A Home for All.', 'The house featured in Orson S. Fowler’s The Octagon House: A Home for All has been visited by thousands of people from across the United States and Canada.', 'In The Octagon House: A Home for All, Orson S. Fowler describes the thousands of octagonal houses built in Canada and the United States after 1848.']",
+          "correctOption": "The construction of thousands of octagonal houses in the United States and Canada was inspired by Orson S. Fowler’s 1848 book The Octagon House: A Home for All.",
+          "order": 10
+        },
+        {
+          "question": "The autobiography of Guatemalan human rights activist Rigoberta Menchú generated considerable controversy when its veracity was called into question.",
+          "incorrectOptions": "['Menchú’s autobiography, which recounted her controversial human rights activities, won much acclaim.', 'Menchú was criticized by the Guatemalan human rights movement when it was revealed that her autobiography was authored by someone else.', 'Menchú’s provocative autobiography exposed deep divisions within the Guatemalan human rights movement.']",
+          "correctOption": "Claims that Menchú’s autobiography was not accurate gave rise to widespread debate.",
+          "order": 11
+        },
+        {
+          "question": "“Let them hate, so long as they fear.” (Lucius Accius)",
+          "incorrectOptions": "['Fear fades away, but hatred endures.', 'Without fear there would be no hate.', 'Fearful people are less likely to hate others.']",
+          "correctOption": "Those who wish to be feared do not object to being hated.",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "questions": [
+        {
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": "['Great Chefs, Great Discoveries', 'From Veal Stock to Dashi: A World of Extraordinary Cooking', 'Umami: The Four Categories of Taste']",
+          "correctOption": "In Search of the Fifth Flavor",
+          "order": 13
+        },
+        {
+          "question": "The main purpose of the first paragraph is to discuss -",
+          "incorrectOptions": "['Escoffier’s career as a chef', 'the four main categories of taste', 'the most glamorous restaurant in Paris']",
+          "correctOption": "what made Escoffier’s cooking special",
+          "order": 14
+        },
+        {
+          "question": "According to the second paragraph, dashi -",
+          "incorrectOptions": "['is the fifth category of taste', 'does not contain glutamic acid', 'was discovered by Ikeda']",
+          "correctOption": "is a traditional Japanese food",
+          "order": 15
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": "['show why it took a hundred years for umami to be recognized', 'compare umami with the other four tastes', 'explain how human taste receptors function']",
+          "correctOption": "present confirmation of umami",
+          "order": 16
+        },
+        {
+          "question": "It can be inferred from the last paragraph that _____ the human tongue.",
+          "incorrectOptions": "['taste receptors are found on', 'L-glutamate is part of', 'umami is not always recognized by']",
+          "correctOption": "identifying taste is the main function of",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "questions": [
+        {
+          "question": "According to the first paragraph, malaria kills -",
+          "incorrectOptions": "['ten percent of the world’s population', 'most children under five in Africa', 'everyone who gets the disease']",
+          "correctOption": "at least one million people each year",
+          "order": 18
+        },
+        {
+          "question": "It can be inferred from the text that pharmaceutical companies are -",
+          "incorrectOptions": "['associated with the World Health Organization and the United Nations', 'investing heavily in the development of new treatments for malaria', 'pursuing cost-effective means of reducing the incidence of malaria']",
+          "correctOption": "more concerned with financial issues than humanitarian ones",
+          "order": 19
+        },
+        {
+          "question": "In line 10, \"reluctant\" is closest in meaning to -",
+          "incorrectOptions": "['forced', 'allowed', 'enthusiastic']",
+          "correctOption": "unwilling",
+          "order": 20
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": "['suggest ways in which funds for combating malaria might be raised', 'compare the cost of preventing malaria with that of treating it', 'describe the program needed to eliminate malaria in Africa']",
+          "correctOption": "argue that extensive funding is needed in order to save both money and lives",
+          "order": 21
+        },
+        {
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": "['Winning the Fight Against Malaria: International Initiatives Against Disease', 'World Health Organization Programs: Rolling Back Malaria', 'Controlling Parasitic Diseases in Sub-Saharan Africa']",
+          "correctOption": "Saving Lives and Money: The Battle Against Malaria",
+          "order": 22
+        }
+      ]
+    }
+  ],
+  "chaptersSection2": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "question": "Some experts fear that half the world's population may soon not have ____ to safe drinking water.",
+          "incorrectOptions": "['motive', 'penalty', 'caution']",
+          "correctOption": "access",
+          "order": 1
+        },
+        {
+          "question": "Birds born in ____ do not always survive when they are released into the wild.",
+          "incorrectOptions": "['consultation', 'celebration', 'convenience']",
+          "correctOption": "captivity",
+          "order": 2
+        },
+        {
+          "question": "Few diamonds are perfect; most have either internal or external ____.",
+          "incorrectOptions": "['odors', 'pleas', 'edicts']",
+          "correctOption": "flaws",
+          "order": 3
+        },
+        {
+          "question": "The discovery of gold in South Dakota's Black Hills in 1874 attracted thousands of ____-seekers to the area.",
+          "incorrectOptions": "['revenge', 'essence', 'talent']",
+          "correctOption": "fortune",
+          "order": 4
+        },
+        {
+          "question": "The Netherlands – literally, the 'low countries' – is ____ named: much of the country lies below sea level.",
+          "incorrectOptions": "['needlessly', 'presently', 'basically']",
+          "correctOption": "suitably",
+          "order": 5
+        },
+        {
+          "question": "After its flame ____, a candle emits smoke for a while.",
+          "incorrectOptions": "['pulls off', 'comes in', 'takes on']",
+          "correctOption": "goes out",
+          "order": 6
+        },
+        {
+          "question": "The wren has a very loud song but is otherwise a small and ____ bird.",
+          "incorrectOptions": "['immortal', 'emblematic', 'omniscient']",
+          "correctOption": "inconspicuous",
+          "order": 7
+        },
+        {
+          "question": "Americans love to play and watch baseball, their country's national ____.",
+          "incorrectOptions": "['pavement', 'pension', 'profit']",
+          "correctOption": "pastime",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "question": "Contrary to popular belief, handling toads does not give one warts.",
+          "incorrectOptions": "['Some people think that toads have warts but they do not.', 'Because toads have warts, many people avoid picking them up.', 'It is thought that people who come into close contact with toads sometimes develop warts.']",
+          "correctOption": "It is not true, despite what many people think, that people get warts from touching toads.",
+          "order": 9
+        },
+        {
+          "question": "The Faerie Queene, by Renaissance poet Edmund Spenser, is widely regarded as the most outstanding narrative poem of the period.",
+          "incorrectOptions": "[\"Edmund Spenser's favorite narrative poem from the Renaissance period was The Faerie Queene.\", \"Many excellent narrative poems, among them Edmund Spenser's The Faerie Queene, were written during the Renaissance.\", \"Edmund Spenser's narrative poem The Faerie Queene earned him a name as the best poet of his day.\"]",
+          "correctOption": "Many consider Edmund Spenser's The Faerie Queene the greatest narrative poem of the Renaissance.",
+          "order": 10
+        },
+        {
+          "question": "The Palatine Chapel in Aachen, Germany, was modeled after the Basilica of San Vitale in Ravenna, Italy.",
+          "incorrectOptions": "['The Basilica of San Vitale was built long before the Palatine Chapel.', 'The Palatine Chapel and the Basilica of San Vitale were designed by the same architect.', 'There are strong similarities between the Basilica of San Vitale and the Palatine Chapel.']",
+          "correctOption": "The design of the Palatine Chapel was based on the Basilica of San Vitale.",
+          "order": 11
+        },
+        {
+          "question": "The Antarctic Treaty, signed in 1959, declared the Antarctic continent a demilitarized zone and mandated freedom of scientific investigation there.",
+          "incorrectOptions": "['The 1959 Antarctic Treaty divided the continent into separate zones, some for military purposes and others for scientific research.', 'The Antarctic Treaty of 1959 holds that all nations share the responsibility for safeguarding the Antarctic continent and those engaged in scientific experimentation there.', 'Since 1959, when the Antarctic Treaty established an outpost for scientific investigation on the Antarctic continent, the international military presence there has steadily decreased.']",
+          "correctOption": "In addition to prohibiting military activity on the Antarctic continent, the 1959 Antarctic Treaty protects independent scientific research there.",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "questions": [
+        {
+          "question": "The main purpose of the first paragraph is to discuss -",
+          "incorrectOptions": "['several different sign languages', 'the movements and signs in sign language', 'how meaning is conveyed in sign language']",
+          "correctOption": "what sign language is and who uses it",
+          "order": 13
+        },
+        {
+          "question": "The main purpose of the second paragraph is to -",
+          "incorrectOptions": "[\"discuss l'Épée's work with deaf children\", 'introduce French Sign Language', 'discuss the sign languages that existed in the mid-eighteenth century']",
+          "correctOption": "present the early history of sign language",
+          "order": 14
+        },
+        {
+          "question": "Which of the following is not mentioned in the third paragraph as a way in which a person using ASL conveys meaning?",
+          "incorrectOptions": "['raising eyebrows', 'leaning forward', 'fingerspelling']",
+          "correctOption": "changing word order",
+          "order": 15
+        },
+        {
+          "question": "It can be inferred from the third paragraph that a non-manual signal (line 14) is one that -",
+          "incorrectOptions": "['has only one meaning', 'must be spelled out one letter at a time', 'follows the rules of syntax and grammar']",
+          "correctOption": "does not involve the use of hands",
+          "order": 16
+        },
+        {
+          "question": "According to the last paragraph, ASL is influenced by all of the following except -",
+          "incorrectOptions": "['local idioms', 'cultural factors', 'personality and gender']",
+          "correctOption": "the rhythm of other languages",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "questions": [
+        {
+          "question": "The main purpose of the text is to discuss -",
+          "incorrectOptions": "['a theory of trigonometry and its origins', 'the ancient Babylonians and their number system', \"Mansfield and Wildberger's mathematical works\"]",
+          "correctOption": "an archaeological find and its significance",
+          "order": 18
+        },
+        {
+          "question": "According to the second paragraph, ____ allowed Mansfield and Wildberger to determine what P322 was.",
+          "incorrectOptions": "['the missing part of the fourth column', 'the measurements of right triangles', 'the Greek trigonometric table']",
+          "correctOption": "the picture of P322",
+          "order": 19
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": "['explain why the base-60 number system enables more precise calculations', 'compare the base-60 number system with the base-10 system', 'explain why the Greeks did not use the P322 trigonometric table']",
+          "correctOption": "present a distinguishing feature of P322",
+          "order": 20
+        },
+        {
+          "question": "The last paragraph mentions \"measuring time\" (line 25) in order to -",
+          "incorrectOptions": "['explain the relationship between the measurement of time and trigonometry', 'argue that our system for measuring time was developed by the Babylonians', 'describe how the Greeks measured time']",
+          "correctOption": "illustrate the number system used by the Babylonians",
+          "order": 21
+        },
+        {
+          "question": "According to the text, which of the following statements do Mansfield and Wildberger disagree with?",
+          "incorrectOptions": "['Trigonometry is concerned with the sides of right triangles.', 'The Greeks were not the first to develop trigonometric tables.', 'Babylonian mathematicians were not familiar with the base-10 system.']",
+          "correctOption": "Trigonometric tables must include information about the angles of right triangles.",
+          "order": 22
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "order": 1,
+  "name": "Summer 2023",
+  "type": "Psychometrics",
+  "chaptersSection1": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "question": "Historians believe that the present-day city of Vitoria-Gasteiz is built on the ____ of Victoriacum, a 6th-century Visigoth city.",
+          "incorrectOptions": [
+            "tact",
+            "sore",
+            "trend"
+          ],
+          "correctOption": "site",
+          "order": 1
+        },
+        {
+          "question": "In ancient times, Ireland's leaders would ____ at the Hill of Tara in County Meath to discuss matters of public importance.",
+          "incorrectOptions": [
+            "expand",
+            "recover",
+            "collapse"
+          ],
+          "correctOption": "assemble",
+          "order": 2
+        },
+        {
+          "question": "Basic mathematical operations, such as addition and ____, are necessary for everyday life.",
+          "incorrectOptions": [
+            "management",
+            "excitement",
+            "instruction"
+          ],
+          "correctOption": "subtraction",
+          "order": 3
+        },
+        {
+          "question": "Many natural phenomena that appear to be totally random actually follow ____ patterns.",
+          "incorrectOptions": [
+            "fanciful",
+            "resourceful",
+            "tolerable"
+          ],
+          "correctOption": "predictable",
+          "order": 4
+        },
+        {
+          "question": "World War II is the ____ for Joseph Heller’s first novel, Catch-22, which describes the experiences of a U.S. Air Force pilot.",
+          "incorrectOptions": [
+            "shortcut",
+            "standby",
+            "outbreak"
+          ],
+          "correctOption": "backdrop",
+          "order": 5
+        },
+        {
+          "question": "Many of San Francisco’s libraries were destroyed or damaged in the 1906 earthquake and fire; the only major collection to be preserved ____ was the Bancroft Library.",
+          "incorrectOptions": [
+            "discreet",
+            "alert",
+            "sober"
+          ],
+          "correctOption": "intact",
+          "order": 6
+        },
+        {
+          "question": "Hamlet, the main character in Shakespeare’s play of the same name, is a complex figure who has ____ audiences for centuries.",
+          "incorrectOptions": [
+            "allocated",
+            "encountered",
+            "obstructed"
+          ],
+          "correctOption": "intrigued",
+          "order": 7
+        },
+        {
+          "question": "In contrast to the ostentatious ____ favored by other aristocrats of his day, Holy Roman Emperor Charles V adopted a simple wardrobe.",
+          "incorrectOptions": [
+            "vocation",
+            "pedestal",
+            "omen"
+          ],
+          "correctOption": "attire",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "question": "A rainbow comprises a primary and a secondary bow, though the latter is frequently too faint to be visible.",
+          "incorrectOptions": [
+            "All rainbows include two bows: the primary one which is formed first, and the secondary one which is formed second.",
+            "Though a rainbow’s secondary bow is fainter than the primary bow, it often lasts longer.",
+            "In most rainbows, the secondary bow is partially hidden by the primary bow."
+          ],
+          "correctOption": "A rainbow consists of two bows but, in many cases, only the primary one is bright enough to be seen.",
+          "order": 9
+        },
+        {
+          "question": "Following the 1848 publication of Orson S. Fowler’s book The Octagon House: A Home for All, several thousand such houses sprang up in the United States and Canada.",
+          "incorrectOptions": [
+            "The construction of thousands of octagonal houses in the United States and Canada was inspired by Orson S. Fowler’s 1848 book The Octagon House: A Home for All.",
+            "The house featured in Orson S. Fowler’s The Octagon House: A Home for All has been visited by thousands of people from across the United States and Canada.",
+            "In The Octagon House: A Home for All, Orson S. Fowler describes the thousands of octagonal houses built in Canada and the United States after 1848."
+          ],
+          "correctOption": "Orson S. Fowler’s The Octagon House: A Home for All, which sold thousands of copies in the United States and Canada, led many people to design octagonal houses of their own.",
+          "order": 10
+        },
+        {
+          "question": "The autobiography of Guatemalan human rights activist Rigoberta Menchú generated considerable controversy when its veracity was called into question.",
+          "incorrectOptions": [
+            "Menchú’s autobiography, which recounted her controversial human rights activities, won much acclaim.",
+            "Claims that Menchú’s autobiography was not accurate gave rise to widespread debate.",
+            "Menchú’s provocative autobiography exposed deep divisions within the Guatemalan human rights movement."
+          ],
+          "correctOption": "Menchú was criticized by the Guatemalan human rights movement when it was revealed that her autobiography was authored by someone else.",
+          "order": 11
+        },
+        {
+          "question": "“Let them hate, so long as they fear.” (Lucius Accius)",
+          "incorrectOptions": [
+            "Fear fades away, but hatred endures.",
+            "Without fear there would be no hate.",
+            "Fearful people are less likely to hate others."
+          ],
+          "correctOption": "Those who wish to be feared do not object to being hated.",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "Auguste Escoffier, the foremost chef in Paris in the late 1800s, ran the most glamorous and expensive restaurant in the city. There he created meals that surpassed anything his customers had ever experienced. The wonderful taste was attributed to veal stock, the innovative basis of most of Escoffier’s scrumptious dishes. It deepened and enriched the flavor of everything it touched. So extraordinary was his cooking that it defied the accepted notion that humans could taste only four flavors: salty, sweet, sour, and bitter. In fact, Escoffier believed he had discovered a new category of taste, though he lacked the scientific means to prove it.\n\nIn 1907, a Japanese chemist named Kikunae Ikeda had a similar insight. Enjoying a bowl of dashi, a classic Japanese soup made from seaweed, Ikeda sensed that the flavor was not one of the four recognized tastes. He went into his laboratory, determined to find the mysterious component. A year later his findings were published in the Journal of the Chemical Society of Tokyo. Claiming that the elusive flavor came from glutamic acid, he called this fifth taste “umami”, a name derived from the Japanese word umai, meaning “delicious”. Unlike Escoffier, Ikeda had offered scientific proof. Still, nobody believed him.\n\nAlmost a hundred years later, a new generation of scientists took a closer look at the human tongue. Their findings confirmed the claims of Escoffier and Ikeda. Apparently, humans have taste receptors for a substance called L-glutamate. When we eat something that is particularly delicious in a way not identifiable as sweet, sour, bitter, or salty, what we are tasting is umami.",
+      "questions": [
+        {
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": [
+            "Great Chefs, Great Discoveries",
+            "From Veal Stock to Dashi: A World of Extraordinary Cooking",
+            "The Four Categories of Taste"
+          ],
+          "correctOption": "In Search of the Fifth Flavor",
+          "order": 13
+        },
+        {
+          "question": "The main purpose of the first paragraph is to discuss -",
+          "incorrectOptions": [
+            "Escoffier’s career as a chef",
+            "what made Escoffier’s cooking special",
+            "the most glamorous restaurant in Paris"
+          ],
+          "correctOption": "the four main categories of taste",
+          "order": 14
+        },
+        {
+          "question": "According to the second paragraph, dashi -",
+          "incorrectOptions": [
+            "is the fifth category of taste",
+            "does not contain glutamic acid",
+            "was discovered by Ikeda"
+          ],
+          "correctOption": "is a traditional Japanese food",
+          "order": 15
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": [
+            "show why it took a hundred years for umami to be recognized",
+            "compare umami with the other four tastes",
+            "explain how human taste receptors function"
+          ],
+          "correctOption": "present confirmation of umami",
+          "order": 16
+        },
+        {
+          "question": "It can be inferred from the last paragraph that _____ the human tongue.",
+          "incorrectOptions": [
+            "taste receptors are found on",
+            "L-glutamate is part of",
+            "umami is not always recognized by"
+          ],
+          "correctOption": "identifying taste is the main function of",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "Malaria is the most prevalent parasitic disease in the world, affecting ten percent of the global population. It proves fatal for a million or more people per year. Almost all of the deaths occur in impoverished sub-Saharan Africa, and most of those who succumb to the disease are children under the age of five.\n\nThe link between malaria and poverty in the world’s underdeveloped countries is stronger than is generally acknowledged. “Where malaria prospers most, human societies have prospered least,” says economist Jeffrey Sachs. Reducing the incidence of malaria by means of drugs could be an extremely cost-effective way of promoting development and prosperity. However, international pharmaceutical companies have been reluctant to fund extensive research into vaccines and drugs to combat a disease that primarily strikes countries that are unable to pay for treatment. On the other hand, the international community has launched some positive initiatives. For example, the World Health Organization has instituted the Roll Back Malaria campaign, the current goal of which is to eliminate all deaths caused by the disease by 2030. Also, the United Nations has established the Global Fund to Fight AIDS, Tuberculosis, and Malaria. The methods employed include distribution of insecticide-treated sleeping nets and the administration of existing drugs in various combinations.\n\nUnfortunately, as a result of insufficient funding, none of these efforts is likely to make great headway. An effective program to battle malaria in Africa alone would cost roughly $2 billion per year, yet global spending on attempts to fight the disease amounts to less than $100 million annually. Although $2 billion seems an astronomical sum, economists estimate that the expenditure would, in the long run, save Africa’s economy $12 billion each year. Not only would the benefit clearly exceed the cost in dollars and cents, but millions of lives would be saved.",
+      "questions": [
+        {
+          "question": "According to the first paragraph, malaria kills -",
+          "incorrectOptions": [
+            "ten percent of the world’s population",
+            "at least one million people each year",
+            "everyone who gets the disease"
+          ],
+          "correctOption": "most children under five in Africa",
+          "order": 18
+        },
+        {
+          "question": "It can be inferred from the text that pharmaceutical companies are -",
+          "incorrectOptions": [
+            "associated with the World Health Organization and the United Nations",
+            "investing heavily in the development of new treatments for malaria",
+            "pursuing cost-effective means of reducing the incidence of malaria"
+          ],
+          "correctOption": "more concerned with financial issues than humanitarian ones",
+          "order": 19
+        },
+        {
+          "question": "In line 10, “reluctant” is closest in meaning to -",
+          "incorrectOptions": [
+            "forced",
+            "allowed",
+            "enthusiastic"
+          ],
+          "correctOption": "unwilling",
+          "order": 20
+        },
+        {
+          "question": "The main purpose of the last paragraph is to -",
+          "incorrectOptions": [
+            "suggest ways in which funds for combating malaria might be raised",
+            "compare the cost of preventing malaria with that of treating it",
+            "describe the program needed to eliminate malaria in Africa"
+          ],
+          "correctOption": "argue that extensive funding is needed in order to save both money and lives",
+          "order": 21
+        },
+        {
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": [
+            "Winning the Fight Against Malaria: International Initiatives Against Disease",
+            "World Health Organization Programs: Rolling Back Malaria",
+            "Controlling Parasitic Diseases in Sub-Saharan Africa"
+          ],
+          "correctOption": "Saving Lives and Money: The Battle Against Malaria",
+          "order": 22
+        }
+      ]
+    }
+
+  ],
+  "chaptersSection2": [
+    {
+      "type": "completion",
+      "order": 1,
+      "questions": [
+        {
+          "question": "Author Hans Christian Andersen turned to writing only because he was unable to ____ his ambition of becoming an actor.",
+          "incorrectOptions": [
+            "forbid",
+            "fasten",
+            "flatter"
+          ],
+          "correctOption": "fulfill",
+          "order": 1
+        },
+        {
+          "question": "In May 2008, the Chinese government initiated a nationwide _____ to stop the spread of hand, foot, and mouth disease.",
+          "incorrectOptions": [
+            "obstacle",
+            "suspicion",
+            "incident"
+          ],
+          "correctOption": "campaign",
+          "order": 2
+        },
+        {
+          "question": "The Booth Richardson Tiger Team is still trying to _____ down a Tasmanian tiger even though the species was declared extinct in 1936.",
+          "incorrectOptions": [
+            "rinse",
+            "strip",
+            "grind"
+          ],
+          "correctOption": "track",
+          "order": 3
+        },
+        {
+          "question": "Tourists wishing to visit _____ areas in India require special permits.",
+          "incorrectOptions": [
+            "edited",
+            "convicted",
+            "distracted"
+          ],
+          "correctOption": "restricted",
+          "order": 4
+        },
+        {
+          "question": "There are no snakes in Ireland; according to legend, they were all _____ by St. Patrick.",
+          "incorrectOptions": [
+            "narrated",
+            "deprived",
+            "magnified"
+          ],
+          "correctOption": "banished",
+          "order": 5
+        },
+        {
+          "question": "Japan boasts 600 varieties of cherry trees, only some of which _____ fruit.",
+          "incorrectOptions": [
+            "scrape",
+            "taunt",
+            "glide"
+          ],
+          "correctOption": "bear",
+          "order": 6
+        },
+        {
+          "question": "The Hawaiian Renaissance of the 1970s was inspired in part by movements dedicated to the _____ of Native American culture.",
+          "incorrectOptions": [
+            "recitation",
+            "resentment",
+            "refund"
+          ],
+          "correctOption": "revival",
+          "order": 7
+        },
+        {
+          "question": "During a snowstorm in 1918, the temperature in Cincinnati, Ohio, _____ overnight from 30 degrees to minus 10 degrees Fahrenheit.",
+          "incorrectOptions": [
+            "replenished",
+            "protruded",
+            "reconciled"
+          ],
+          "correctOption": "plummeted",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "type": "rephrasing",
+      "order": 2,
+      "questions": [
+        {
+          "question": "Mother’s milk contains antibodies that boost a baby’s immune system.",
+          "incorrectOptions": [
+            "Mother’s milk is the main source of the antibodies needed by infants for their immune system.",
+            "Mother’s milk is recommended for infants with a weak immune system.",
+            "In order to develop their immune system, infants need antibodies like those found in mother’s milk."
+          ],
+          "correctOption": "Mother’s milk provides babies with antibodies that strengthen their immune system.",
+          "order": 9
+        },
+        {
+          "question": "The Ziani family of Venice rose to prominence in the 10th century.",
+          "incorrectOptions": [
+            "The Ziani family ruled Venice in the 10th century.",
+            "Until the 10th century, the Ziani family lived in Venice.",
+            "The Zianis were a typical 10th-century family."
+          ],
+          "correctOption": "The Ziani family became influential in the 10th century.",
+          "order": 10
+        },
+        {
+          "question": "Most ancient scribes had at their disposal only perishable writing materials such as papyrus and bamboo scrolls; Sumerian scribes, on the other hand, wrote on durable clay tablets.",
+          "incorrectOptions": [
+            "While most ancient scribes refused to write on any material other than papyrus and bamboo scrolls, Sumerian scribes preferred to use clay tablets, which they considered to be superior in quality.",
+            "While Sumerian scribes originally wrote on clay tablets, they later came to favor the papyrus and bamboo scrolls used by scribes in other ancient civilizations.",
+            "Sumerian scribes wrote on long-lasting clay tablets, while other ancient scribes were limited to scrolls made of papyrus, bamboo, and other materials that deteriorated over the course of time."
+          ],
+          "correctOption": "In some ancient civilizations, scribes had at their disposal light, flexible writing materials made of papyrus and bamboo, but Sumerian scribes had only clay tablets to write on.",
+          "order": 11
+        },
+        {
+          "question": "The Bayeux Tapestry yields invaluable insights into the medieval period.",
+          "incorrectOptions": [
+            "Our understanding of the medieval period has been advanced beyond measure by the Bayeux Tapestry.",
+            "The Bayeux Tapestry, a priceless work of art, is emblematic of the rich artistic legacy of the medieval period.",
+            "The accuracy of the Bayeux Tapestry’s depiction of momentous events in the medieval period is unparalleled."
+          ],
+          "correctOption": "The Bayeux Tapestry has been scrutinized painstakingly by scholars of medieval history.",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 3,
+      "passage": "“My trouble and strife is out with the tin lids. I’m on my Pat Malone.” This seemingly nonsensical statement actually makes perfect sense to anyone who knows Australian rhyming slang. We are all familiar with slang – an informal, often playful, sometimes puzzling way of speaking – but Australian rhyming slang is especially complex: a word is replaced by a word or phrase that rhymes with it but seems not to belong in the sentence. For example, instead of “Answer the phone,” an Australian might say “Answer the dog and bone.” In some cases, the rhyming phrase becomes shortened so that the rhyme no longer exists. Thus, the slang for “I got hit on my head” is “I got hit on my loaf of bread,” which becomes “I got hit on my loaf.” Some phrases are particularly difficult for foreigners to understand because they are based on local culture and slang. Thus, “Our team had a real shocker” (a really bad game) becomes “Our team had a real Barry Crocker” (a reference to a popular Australian entertainer), which is then shortened to “Our team had a real Barry.”\n\nIt is commonly believed that Australian rhyming slang grew out of Cockney rhyming slang, which developed in the East End of London in the 1840s, and out of Irish rhyming slang. In the 1800s, Australia was settled by large numbers of immigrants from Britain and Ireland, so it is possible that they brought this manner of speaking with them. However, some people think that it developed independently in Australia. Today, most young Australians, especially in the large cities, consider rhyming slang old-fashioned. In many circles, however, it is still alive and well.\n\nNow, back to the opening sentence. Almost any Australian could tell you that “My trouble and strife is out with the tin lids. I’m on my Pat Malone” means “My wife is out with the kids. I’m on my own.”",
+      "questions": [
+        {
+          "question": "The main purpose of the text is to -",
+          "incorrectOptions": [
+            "discuss the development of Australian English",
+            "compare Australian, Cockney, and Irish rhyming slang",
+            "present the characteristics of informal language"
+          ],
+          "correctOption": "discuss an unusual form of slang",
+          "order": 13
+        },
+        {
+          "question": "Which of the following is not true of the word “shocker” (line 11)?",
+          "incorrectOptions": [
+            "It is used to refer to something bad.",
+            "It rhymes with “Barry Crocker”.",
+            "It is a word used in Australia."
+          ],
+          "correctOption": "It is Australian slang for “entertainer”.",
+          "order": 14
+        },
+        {
+          "question": "The main purpose of the second paragraph is to -",
+          "incorrectOptions": [
+            "discuss the effect of immigration on the development of language",
+            "describe the manner of speaking once heard in the East End of London",
+            "compare Australian rhyming slang in the past and today"
+          ],
+          "correctOption": "present two views on the origins of Australian rhyming slang",
+          "order": 15
+        },
+        {
+          "question": "The “circles” referred to in line 20 would most likely include -",
+          "incorrectOptions": [
+            "young people",
+            "immigrants to Australia",
+            "older Australians"
+          ],
+          "correctOption": "residents of large cities",
+          "order": 16
+        },
+        {
+          "question": "It can be inferred from the text that in Australian rhyming slang, “Nice bag of fruit” most likely means -",
+          "incorrectOptions": [
+            "That’s a great car you have!",
+            "What a sweet dog!",
+            "You’ve done a good job."
+          ],
+          "correctOption": "You’re wearing a lovely suit.",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "order": 4,
+      "passage": "In the world of toys, where new ideas lose their charm alarmingly quickly, a small bottle containing soapy liquid used to blow bubbles has been a constant favorite since the 1940s. According to one current industry estimate, 200 million bottles of bubble liquid are sold annually. Tim Kehoe, a toy inventor from St. Paul, Minnesota, dreamed of taking the classic, transparent bubble one step further. He devoted eleven years of his life to creating colored bubbles – bubbles of a single vibrant hue, be it green, blue, or pink.\n\nThe realization of Kehoe’s dream proved to be no simple undertaking. In the process, he stained his car, several bathtubs, and a few dozen children. He ruined kitchen countertops and corporate conference tables, and caused a chemical fire or two. Eventually, he succeeded in making colored bubbles with a dye that could be washed off skin and clothing, but market research showed that the product was still not ready. Even temporary stains horrified parents. Unfortunately for Kehoe, in the history of organic chemistry no one had ever created a water-soluble dye that faded spontaneously.\n\nKehoe called in Dr. Ram Sabnis, one of a handful of experts on dye chemistry in the world. Sabnis, who eventually solved the problem, says the project was the most difficult he had ever worked on. “Nobody has made this chemistry before. We have synthesized a whole new class of dyes.” Zubbles, the product of Sabnis and Kehoe’s collaboration, appeared on the market in 2009 – to the delight of bubble lovers big and small.",
+      "questions": [
+        {
+          "question": "An appropriate title for this text would be -",
+          "incorrectOptions": [
+            "The Hazards of Inventing Toys",
+            "Umami: A Classic Toy Reinvented",
+            "Spontaneous Fading: Water-Soluble Dyes"
+          ],
+          "correctOption": "How Kehoe and Sabnis Revolutionized the Toy Market",
+          "order": 18
+        },
+        {
+          "question": "The main purpose of the first paragraph is to -",
+          "incorrectOptions": [
+            "claim that bubbles are the world’s favorite toy",
+            "describe toys that have been available since the 1940s",
+            "introduce a new form of a favorite toy"
+          ],
+          "correctOption": "explain why new ideas for toys lose their charm quickly",
+          "order": 19
+        },
+        {
+          "question": "The realization . . . undertaking (line 8) could be restated as -",
+          "incorrectOptions": [
+            "Kehoe realized he had wasted eleven years of his life.",
+            "The solution turned out to be simple.",
+            "Kehoe accomplished his goal very quickly."
+          ],
+          "correctOption": "It was extremely difficult to produce colored bubbles.",
+          "order": 20
+        },
+        {
+          "question": "It can be inferred that “a water-soluble dye that faded spontaneously” (line 14) would -",
+          "incorrectOptions": [
+            "wash out easily",
+            "not leave stains",
+            "not be ready to market"
+          ],
+          "correctOption": "horrify parents",
+          "order": 21
+        },
+        {
+          "question": "According to the last paragraph, _____ experts on dye chemistry.",
+          "incorrectOptions": [
+            "Sabnis trains",
+            "Kehoe consulted with several",
+            "Kehoe could not find any"
+          ],
+          "correctOption": "there are very few",
+          "order": 22
+        }
+      ]
+    }
+  ]
+}
