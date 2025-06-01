@@ -1,3 +1,4 @@
+//models/User.js
 const mongoose = require("mongoose");
 
 const ROLES = {
@@ -15,6 +16,10 @@ const UserSchema = new mongoose.Schema({
     default: ROLES.User,
   },
   refreshToken: String,
+  progress: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "UserProgress",
+  },
 });
 
 const UserModel = mongoose.model("users", UserSchema);

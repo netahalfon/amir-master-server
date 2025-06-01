@@ -77,7 +77,7 @@ export default function WordNoteBook() {
 
   const handleMasterySelect = async (wordId, val) => {
     try {
-await upsertMastery(wordId, val);
+      await upsertMastery(wordId, val);
   
     setWords((prev) =>
       prev.map((w) =>
