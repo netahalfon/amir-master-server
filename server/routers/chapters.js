@@ -13,13 +13,6 @@ chaptersRouter.get(
   chaptersController.getChaptersByType
 );
 
-chaptersRouter.get(
-  "/simulation/:simulationId",
-  authonticateToken,
-  chaptersController.getChaptersBySimulation
-);
-
-
 chaptersRouter.post(
   "/",
   authonticateToken,

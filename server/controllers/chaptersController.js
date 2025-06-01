@@ -49,27 +49,9 @@ exports.getChaptersByType = async (req, res) => {
   }
 };
 
-// 2. Get all chapters by simulationId
-exports.getChaptersBySimulation = async (req, res) => {
-  try {
-    const { simulationId } = req.params;
-    if (!simulationId) {
-      return res
-        .status(400)
-        .json({ message: "Missing simulationId parameter" });
-    }
-    const chapters = await Chapter.find({ simulationId })
-      .select("-__v")
-      .sort("order")
-      .lean();
-    res.json(chapters);
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: err.message });
-  }
-};
 
-// 3. Create a new chapter (with embedded questions)
+
+// 2. Create a new chapter (with embedded questions)
 exports.createChapter = async (req, res) => {
   try {
     const { type, title, passage, order, simulationId, questions } = req.body;
