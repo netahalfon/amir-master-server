@@ -1,6 +1,6 @@
 /* controllers/simulationController.js */
 const Simulation = require("../models/Simulation");
-const Chapter = require("../models/Chapters");
+const Chapter = require("../models/Chapter");
 const Question = require("../models/Question");
 const fs = require("fs");
 const path = require("path");

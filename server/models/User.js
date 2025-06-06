@@ -7,7 +7,7 @@ const ROLES = {
   Admin: "Admin",
 };
 
-const UserSchema = new Schema({
+const userSchema = new Schema({
   name: String,
   email: String,
   password: String,
@@ -23,6 +23,6 @@ const UserSchema = new Schema({
   },
 });
 
-const UserModel = mongoose.model("users", UserSchema);
+const UserModel = mongoose.model("users", userSchema);
 module.exports.UserModel = UserModel;
 module.exports.ROLES = ROLES;

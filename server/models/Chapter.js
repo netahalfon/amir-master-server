@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const { Schema, Types } = mongoose;
 
 
-const chaperSchema = new Schema({
+const chapterSchema = new Schema({
   type: {
     type: String,
     enum: ["completion", "rephrasing", "reading"],
@@ -18,4 +18,4 @@ const chaperSchema = new Schema({
   order: { type: Number },
   simulationId: { type: Types.ObjectId, ref: "Simulation" },//only if simulation
 });
-module.exports = mongoose.model("Chapters", chaperSchema);
+module.exports = mongoose.model("Chapter", chapterSchema );

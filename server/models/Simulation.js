@@ -2,10 +2,10 @@
 const mongoose = require("mongoose");
 const { Schema, Types } = mongoose;
 
-const SimulationSchema = new Schema({
+const simulationSchema = new Schema({
   order: { type: Number, required: true, unique: true },
-  chaptersSection1: [{ type: Types.ObjectId, ref: "Chapters" }],
-  chaptersSection2: [{ type: Types.ObjectId, ref: "Chapters" }],
+  chaptersSection1: [{ type: Types.ObjectId, ref: "Chapter" }],
+  chaptersSection2: [{ type: Types.ObjectId, ref: "Chapter" }],
   type: {
     type: String,
     enum: ["Psychometrics", "Amirnet"],
@@ -14,4 +14,4 @@ const SimulationSchema = new Schema({
   name: { type: String, required: true },
 });
 
-module.exports = mongoose.model("Simulations", SimulationSchema);
+module.exports = mongoose.model("Simulations", simulationSchema);

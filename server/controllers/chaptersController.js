@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 const Question = require("../models/Question");
-const Chapter = require("../models/Chapters");
+const Chapter = require("../models/Chapter");
 const { UserModel } = require("../models/User");
 
 exports.getChaptersByType = async (req, res) => {
