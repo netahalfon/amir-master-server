@@ -8,7 +8,6 @@ const path = require("path");
 exports.getSimulation = async (req, res) => {
   try {
     const { id } = req.params;
-    // שליפת סימולציה עם פופולייט כפול (פרקים -> שאלות)
     const simulation = await Simulation.findById(id)
       .populate({
         path: "chaptersSection1",
@@ -22,7 +21,6 @@ exports.getSimulation = async (req, res) => {
     if (!simulation) {
       return res.status(404).json({ error: "Simulation not found" });
     }
-
     res.json(simulation);
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch simulation" });
