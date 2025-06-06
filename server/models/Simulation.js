@@ -1,7 +1,8 @@
 // models/Simulations.js
 const mongoose = require("mongoose");
 const { Schema, Types } = mongoose;
-const simulationsSchema = new Schema({
+
+const SimulationSchema = new Schema({
   order: { type: Number, required: true, unique: true },
   chaptersSection1: [{ type: Types.ObjectId, ref: "Chapters" }],
   chaptersSection2: [{ type: Types.ObjectId, ref: "Chapters" }],
@@ -12,4 +13,5 @@ const simulationsSchema = new Schema({
   },
   name: { type: String, required: true },
 });
-module.exports = mongoose.model("Simulations", simulationsSchema);
+
+module.exports = mongoose.model("Simulations", SimulationSchema);

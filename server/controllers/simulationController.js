@@ -1,5 +1,5 @@
 /* controllers/simulationController.js */
-const Simulation = require("../models/Simulations");
+const Simulation = require("../models/Simulation");
 const Chapter = require("../models/Chapters");
 const Question = require("../models/Question");
 const fs = require("fs");

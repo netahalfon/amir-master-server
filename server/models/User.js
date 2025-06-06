@@ -1,12 +1,13 @@
 //models/User.js
 const mongoose = require("mongoose");
+const { Schema, Types } = mongoose;
 
 const ROLES = {
   User: "User",
   Admin: "Admin",
 };
 
-const UserSchema = new mongoose.Schema({
+const UserSchema = new Schema({
   name: String,
   email: String,
   password: String,
@@ -17,7 +18,7 @@ const UserSchema = new mongoose.Schema({
   },
   refreshToken: String,
   progress: {
-    type: mongoose.Schema.Types.ObjectId,
+    type: Types.ObjectId,
     ref: "UserProgress",
   },
 });
