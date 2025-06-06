@@ -14,4 +14,4 @@ const simulationSchema = new Schema({
   name: { type: String, required: true },
 });
 
-module.exports = mongoose.model("Simulations", simulationSchema);
+module.exports = mongoose.model("Simulation", simulationSchema);
