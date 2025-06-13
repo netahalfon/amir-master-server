@@ -39,7 +39,7 @@ exports.getAllSimulationsOptions = async (req, res) => {
 exports.importSimulations = async (req, res) => {
   try {
     console.log("Importing simulations...\n dirname:", __dirname);
-    const filePath = path.join(__dirname, "../data/summer_2024.json");
+    const filePath = path.join(__dirname, "../data/spring_2023.json");
     console.log(filePath);
 
     const rawData = fs.readFileSync(filePath, "utf-8");

@@ -21,8 +21,8 @@ simulationRouter.get(
 
 simulationRouter.post(
   "/import",
-   authonticateToken,
-   adminAccess,
+   //authonticateToken,
+   //adminAccess,
   simulationController.importSimulations    
 );
 
