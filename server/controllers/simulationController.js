@@ -2,12 +2,16 @@
 const Simulation = require("../models/Simulation");
 const Chapter = require("../models/Chapter");
 const Question = require("../models/Question");
+const User = require("../models/UserProgress");
+const { UserModel } = require("../models/User");
 const fs = require("fs");
 const path = require("path");
 
 exports.getSimulation = async (req, res) => {
+  //היוזר מקבל את הסימולציה נקיה בליתשובות זה שלב שבוא מתחילים סימולציה לכן יש לאפס את כל התשובות של הסימולציה
   try {
     const { id } = req.params;
+    //צריך לאפס את תשובות היוזר שביקש לאותה הסימולציה
     const simulation = await Simulation.findById(id)
       .populate({
         path: "chaptersSection1",
@@ -33,6 +37,85 @@ exports.getAllSimulationsOptions = async (req, res) => {
     res.json(simulations);
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch simulations" });
+  }
+};
+
+exports.getSimulationGrade = async (req, res) => {
+  try {
+    console.log("Calculating simulation grade...");
+    const { id } = req.params;
+    const userId = req.user._id;
+
+    // Fetch simulation with all chapters and questions
+    const simulation = await Simulation.findById(id)
+      .populate({
+        path: "chaptersSection1",
+        populate: { path: "questions" },
+      })
+      .populate({
+        path: "chaptersSection2",
+        populate: { path: "questions" },
+      });
+
+    if (!simulation) {
+      return res.status(404).json({ error: "Simulation not found" });
+    }
+
+    // Fetch user's progress with answered questions
+    const user = await UserModel.findById(userId).populate("progress");
+    const progress = user.progress;
+
+    const answeredMap = new Map();
+    progress.answeredQuestions.forEach((ans) => {
+      answeredMap.set(ans.questionId.toString(), ans.answeredCorrectly);
+    });
+
+    let totalQuestions = 0;
+    let correctAnswers = 0;
+
+    // Count total and correct answers
+    const countCorrectInChapters = (chapters) => {
+      chapters.forEach((chapter) => {
+        chapter.questions.forEach((q) => {
+          totalQuestions++;
+          const isCorrect = answeredMap.get(q._id.toString());
+          if (isCorrect) correctAnswers++;
+        });
+      });
+    };
+
+    countCorrectInChapters(simulation.chaptersSection1);
+    countCorrectInChapters(simulation.chaptersSection2);
+
+    // Convert raw score to scaled grade
+    const convertToScaledScore = (raw) => {
+      const scoreMap = [
+        50, 52, 54, 57, 59, 61, 63, 65, 68, 70, 72, 74, 76, 79, 81, 83, 85, 87,
+        90, 92, 94, 96, 99, 101, 104, 106, 108, 110, 113, 115, 117, 119, 121,
+        123, 126, 128, 130, 133, 135, 138, 140, 142, 145, 147, 150,
+      ];
+      return scoreMap[raw] || 50;
+    };
+
+    const grade = convertToScaledScore(correctAnswers);
+
+    // Append new simulation grade
+    progress.simulationGrades.push({
+      simulationId: simulation._id,
+      grade,
+      date: new Date(),
+    });
+
+    await progress.save();
+
+    res.json({
+      grade,
+      correctAnswers,
+      totalQuestions,
+    });
+  } catch (error) {
+    console.error("Error calculating grade:", error);
+    res.status(500).json({ error: "Failed to calculate simulation grade" });
   }
 };
 

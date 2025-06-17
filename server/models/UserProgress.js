@@ -27,6 +27,10 @@ const simulationGradeSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  date: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
 const masterySchema = new mongoose.Schema({

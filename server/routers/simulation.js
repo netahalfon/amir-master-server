@@ -19,6 +19,12 @@ simulationRouter.get(
   simulationController.getAllSimulationsOptions
 );
 
+simulationRouter.get(
+  "/get-grade/:id",
+  authonticateToken,
+  simulationController.getSimulationGrade
+);
+
 simulationRouter.post(
   "/import",
    authonticateToken,
