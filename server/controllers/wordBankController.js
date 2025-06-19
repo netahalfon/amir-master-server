@@ -11,6 +11,30 @@ exports.getWords = async (req, res) => {
   }
 };
 
+exports.getWordsWithMastery = async (req, res) => {
+  try {
+  const userId = req.user._id;
+  let user = await UserModel.findById(userId).populate("progress");
+  const words = await Word.find({}).select("-__v");
+
+  const items = user.progress?.masteries ?? [];
+
+
+  const masteryMap = new Map();
+  items.forEach((m) => {
+    masteryMap.set(m.wordId.toString(), m.mastery);
+  });
+  const wordsWithMastery = words.map((w) => ({
+    ...w.toObject(),
+    mastery: masteryMap.get(w._id.toString()) || "None",
+  }));
+  res.json(wordsWithMastery);
+  } catch (error) {
+    console.error("Error in getWordsWithMastery:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
 exports.upsertWords = async (req, res) => {
   try {
     const { words } = req.body;
