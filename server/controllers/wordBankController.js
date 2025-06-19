@@ -1,5 +1,7 @@
 // controllers/wordBankController.js
 const Word = require("../models/Word");
+const { UserModel } = require("../models/User");
+const UserProgress = require("../models/UserProgress");
 
 exports.getWords = async (req, res) => {
   try {
