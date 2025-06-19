@@ -8,10 +8,11 @@ const fs = require("fs");
 const path = require("path");
 
 exports.getSimulation = async (req, res) => {
-  //היוזר מקבל את הסימולציה נקיה בליתשובות זה שלב שבוא מתחילים סימולציה לכן יש לאפס את כל התשובות של הסימולציה
   try {
     const { id } = req.params;
-    //צריך לאפס את תשובות היוזר שביקש לאותה הסימולציה
+    const userId = req.user._id;
+
+    // Retrieving the simulation including all chapters and questions
     const simulation = await Simulation.findById(id)
       .populate({
         path: "chaptersSection1",
@@ -25,6 +26,24 @@ exports.getSimulation = async (req, res) => {
     if (!simulation) {
       return res.status(404).json({ error: "Simulation not found" });
     }
+
+    // Fetching user's progress
+    const user = await UserModel.findById(userId).populate("progress");
+    const progress = user.progress;
+
+    // Retrieve all question IDs from the simulation
+    const simulationQuestionIds = [
+      ...simulation.chaptersSection1,
+      ...simulation.chaptersSection2,
+    ].flatMap((chapter) => chapter.questions.map((q) => q._id.toString()));
+
+    // Filter out answered questions that are part of the simulation
+    progress.answeredQuestions = progress.answeredQuestions.filter(
+      (ans) => !simulationQuestionIds.includes(ans.questionId.toString())
+    );
+
+    await progress.save();
+
     res.json(simulation);
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch simulation" });
@@ -128,7 +147,7 @@ exports.importSimulations = async (req, res) => {
     const rawData = fs.readFileSync(filePath, "utf-8");
     const simulationData = JSON.parse(rawData);
 
-    // 1. צרי את הסימולציה בלי הפרקים
+    //Create a simulation without chapters and questions
     const newSimulation = await Simulation.create({
       order: simulationData.order,
       name: simulationData.name,
@@ -137,7 +156,7 @@ exports.importSimulations = async (req, res) => {
       chaptersSection2: [],
     });
 
-    // 2. פונקציה לעיבוד כל פרק
+    //Function to create chapters with questions
     const createChaptersWithQuestions = async (chaptersArray) => {
       const chapterIds = [];
 
