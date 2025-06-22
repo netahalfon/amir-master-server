@@ -8,6 +8,11 @@ userProgressRouter.get(
   authonticateToken,
   wordMasteryController.getUserProgress
 );
+userProgressRouter.get(
+  "/summary",
+  authonticateToken,
+  wordMasteryController.getUserProgressSummary 
+);
 userProgressRouter.post(
   "/upsert-mastery",
   authonticateToken,

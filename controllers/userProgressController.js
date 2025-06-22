@@ -1,6 +1,133 @@
 // controllers/userProgressController.js
 const { UserModel } = require("../models/User");
 const UserProgress = require("../models/UserProgress");
+const Word = require("../models/Word");
+const Chapter = require("../models/Chapter");
+
+
+exports.getUserProgressSummary = async (req, res) => {
+  try {
+    const userId = req.user._id;
+    const userProgress = await UserProgress.findById(req.user.progress).lean();
+    const answeredQuestions = userProgress?.answeredQuestions ?? [];
+
+    //Create the vocabularyByLevel Array
+    const allWords = await Word.find({}).lean();
+    const masteries = userProgress?.masteries ?? [];
+    const masteryMap = new Map();
+    masteries.forEach((m) => {
+      if (m.mastery === "Know Well") {
+        masteryMap.set(m.wordId.toString(), true);
+      }
+    });
+    const vocabularyByLevel = [];
+    for (let level = 1; level <= 10; level++) {
+      const wordsAtLevel = allWords.filter((word) => word.level === level);
+      const count = wordsAtLevel.length;
+      const mastered = wordsAtLevel.filter((word) =>
+        masteryMap.has(word._id.toString())
+      ).length;
+      const learning = count - mastered;
+      vocabularyByLevel.push({ level, count, mastered, learning });
+    }
+
+    //Create the masteryDistribution Array
+    // ניצור מפה לפי wordId → mastery
+    const masteryTypeMap = new Map();
+    masteries.forEach((m) => {
+      masteryTypeMap.set(m.wordId.toString(), m.mastery);
+    });
+    // אתחול סופר לפי סוג שליטה
+    const masteryDistributionMap = {
+      "Know Well": 0,
+      "Partially Know": 0,
+      "Don't Know": 0,
+      None: 0,
+    };
+    // נעבור על כל המילים ונחשב לפי המפה
+    allWords.forEach((word) => {
+      const mastery = masteryTypeMap.get(word._id.toString());
+      if (mastery === "Know Well") {
+        masteryDistributionMap["Know Well"]++;
+      } else if (mastery === "Partially Know") {
+        masteryDistributionMap["Partially Know"]++;
+      } else if (mastery === "Don't Know") {
+        masteryDistributionMap["Don't Know"]++;
+      } else {
+        masteryDistributionMap["None"]++;
+      }
+    });
+    // הפוך למערך
+    const masteryDistribution = Object.entries(masteryDistributionMap).map(
+      ([name, value]) => ({ name, value })
+    );
+
+    //Create the practiceStats Array
+    // שליפת כל הפרקים שתואמים למשתמש (לא מסימולציה, רק תרגול חופשי)
+    const allChapters = await Chapter.find({ simulationId: { $exists: false } })
+      .select("type questions")
+      .populate("questions")
+      .lean();
+
+    const answeredMap = new Map();
+    (userProgress?.answeredQuestions ?? []).forEach((ans) => {
+      answeredMap.set(ans.questionId.toString(), ans.answeredCorrectly);
+    });
+
+    const statsMap = {
+      "Sentence Completion": { correct: 0, incorrect: 0 },
+      Rephrasing: { correct: 0, incorrect: 0 },
+      Reading: { correct: 0, incorrect: 0 },
+    };
+
+    allChapters.forEach((chapter) => {
+      let category = null;
+      if (chapter.type === "completion") category = "Sentence Completion";
+      else if (chapter.type === "rephrasing") category = "Rephrasing";
+      else if (chapter.type === "reading") category = "Reading";
+
+      if (!category) return;
+
+      chapter.questions.forEach((question) => {
+        const answeredCorrectly = answeredMap.get(question._id.toString());
+
+        if (answeredCorrectly === true) {
+          statsMap[category].correct++;
+        } else {
+          statsMap[category].incorrect++; // גם אם false או undefined (= לא ענה בכלל)
+        }
+      });
+    });
+
+    const practiceStats = Object.entries(statsMap).map(([name, stat]) => ({
+      name,
+      ...stat,
+    }));
+
+    //Create the simulationScores Array
+    const simulationScores = (userProgress?.simulationGrades ?? [])
+  .sort((a, b) => new Date(a.date) - new Date(b.date)) // כדי שיהיו לפי זמן
+  .map((sim) => {
+    const options = { month: "short", day: "numeric" };
+    const date = new Date(sim.date).toLocaleDateString("en-US", options); // למשל "Jan 8"
+    return {
+      date,
+      score: sim.grade,
+    };
+  });
+
+
+    res.json({
+      vocabularyByLevel,
+      masteryDistribution,
+      practiceStats,
+      simulationScores,
+    });
+  } catch (error) {
+    console.error("Error in getUserProgressSummary:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
 
 exports.getUserProgress = async (req, res) => {
   try {
@@ -120,7 +247,9 @@ exports.upsertAnsweredQuestion = async (req, res) => {
     }
     await progress.save();
     res.json({
-      message: isReset ? "Answer reset successfully" : "Answer updated successfully",
+      message: isReset
+        ? "Answer reset successfully"
+        : "Answer updated successfully",
       answeredQuestions: progress.answeredQuestions,
     });
   } catch (err) {
