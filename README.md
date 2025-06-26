@@ -34,3 +34,14 @@ RESET_PASSWORD_SECRET=your_long_random_secret_for_reset_links
 # Email credentials (used for sending reset password links)
 EMAIL=youremail@example.com
 EMAIL_PASSWORD=your_email_password_or_app_password
+```
+---
+
+## Demo & Documentation
+
+- 🎥 [Demo Video on YouTube](https://youtu.be/WNcGbynXQ2U?si=Yry1kMMpoHWsTCJ-)  
+- 📊 [Final Presentation (Canva)](https://www.canva.com/design/DAGrbrIn-jw/Yx7hqBgdoQbsFswOYnNtOA/edit?utm_content=DAGrbrIn-jw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+- 🖼️ [Project Poster (Canva)](https://www.canva.com/design/DAGrb2_m280/IqEPH3Q_NMZsEs43gK5a2w/edit?utm_content=DAGrb2_m280&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
