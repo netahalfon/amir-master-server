@@ -16,6 +16,9 @@ WORKDIR /app/client
 RUN npm install
 RUN npm run build
 
+# ⭐ הוספת משתנה הסביבה לבנייה
+ENV NEXT_PUBLIC_GOOGLE_CLIENT_ID=$NEXT_PUBLIC_GOOGLE_CLIENT_ID
+
 # שלב 6: חזור לשרת
 WORKDIR /app
 
