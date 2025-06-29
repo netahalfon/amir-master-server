@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN || "http://localhost:3000",
+    origin: true | "http://localhost:3000",
     credentials: true,
   })
 );
