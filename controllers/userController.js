@@ -210,6 +210,9 @@ exports.googleLogin = async (req, res) => {
   }
 };
 
+exports.googleConfigurations = (req, res) => {
+    res.json({ clientId: process.env.GOOGLE_CLIENT_ID });
+}
 
 exports.login = async (req, res) => {
   const { email, password } = req.body;

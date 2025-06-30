@@ -1,6 +1,7 @@
 const userRouter = require("express").Router();
 const userController = require("../controllers/userController");
 
+userRouter.get("/google-configurations",userController.googleConfigurations);
 userRouter.get("/user-info", userController.userInfo);
 userRouter.post("/signup", userController.signUp);
 userRouter.post("/google-signup", userController.googleSignup);
