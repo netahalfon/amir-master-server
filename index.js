@@ -12,12 +12,19 @@ const handle = nextApp.getRequestHandler();
 
 const app = express();
 
+
 // Middleware
 app.use(express.json());
 
+// CORS configuration
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://amir-master.vercel.app",
+  "https://amir-master-client-adjqfnee-neta303366-gmailcoms-projects.vercel.app"
+];
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin: allowedOrigins,
     credentials: true,
   })
 );
