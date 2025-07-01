@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 const path = require("path");
 const next = require("next");
 
-const nextApp = next({ dev:false, dir: path.join(__dirname, "client") });
+const nextApp = next({ dev: false, dir: path.join(__dirname, "client") });
 const handle = nextApp.getRequestHandler();
 
 const app = express();
@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL | "http://localhost:3000",
+    origin: process.env.CLIENT_URL || "http://localhost:3000",
     credentials: true,
   })
 );
