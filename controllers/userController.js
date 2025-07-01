@@ -55,13 +55,13 @@ exports.signUp = async (req, res) => {
       .cookie("accessToken", accessToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: REFRESH_TOKEN_TIME_IN_MILISECONDS,
       })
       .status(200)
@@ -126,13 +126,13 @@ exports.googleSignup = async (req, res) => {
       .cookie("accessToken", accessToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: REFRESH_TOKEN_TIME_IN_MILISECONDS,
       })
       .status(200)
@@ -189,13 +189,13 @@ exports.googleLogin = async (req, res) => {
       .cookie("accessToken", accessToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: REFRESH_TOKEN_TIME_IN_MILISECONDS,
       })
       .status(200)
@@ -247,13 +247,13 @@ exports.login = async (req, res) => {
       .cookie("accessToken", accessToken, {
         httpOnly: true,
         secure: true, // רק אם יש HTTPS
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: true,
-        sameSite: "lax",
+        sameSite: "None",
         maxAge: REFRESH_TOKEN_TIME_IN_MILISECONDS,
       })
       .status(200)
@@ -304,7 +304,7 @@ exports.refreshToken = async (req, res) => {
           .cookie("accessToken", accessToken, {
             httpOnly: true,
             secure: true, // רק אם יש HTTPS
-            sameSite: "lax",
+            sameSite: "None",
             maxAge: ACCESS_TOKEN_TIME_IN_MILISECONDS,
           })
           .status(200)
@@ -341,12 +341,12 @@ exports.logout = (req, res) => {
   res.clearCookie("accessToken", {
     httpOnly: true,
     secure: true,
-    sameSite: "lax",
+    sameSite: "None",
   });
   res.clearCookie("refreshToken", {
     httpOnly: true,
     secure: true,
-    sameSite: "lax",
+    sameSite: "None",
   });
   res.status(200).json({ message: "Logged out" });
 };
