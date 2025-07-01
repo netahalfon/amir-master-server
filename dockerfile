@@ -11,14 +11,14 @@ RUN npm install
 # שלב 4: העתק את שאר קבצי השרת
 COPY . .
 
-# שלב 5: התקן ובנה את הלקוח (Next.js) מתוך תת-תיקייה client/
-WORKDIR /app/client
-RUN npm install
+# # שלב 5: התקן ובנה את הלקוח (Next.js) מתוך תת-תיקייה client/
+# WORKDIR /app/client
+# RUN npm install
 
-RUN npm run build
+# RUN npm run build
 
-# שלב 6: חזור לשרת
-WORKDIR /app
+# # שלב 6: חזור לשרת
+# WORKDIR /app
 
 # שלב 7: ודא שהשרת יאזין לפורט הרצוי
 EXPOSE 3000
